@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016.  Jahir Fiquitiva
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4.0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons.org/licenses/by-sa/4.0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~ Big thanks to the project contributors. Check them in the repository.
+  ~
+  -->
+
+<!--
+  ~
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:key="preferences">
+
+    <PreferenceCategory
+        android:key="devPrefs"
+        android:title="@string/dev_prefs_title">
+
+        <Preference
+            android:selectable="false"
+            android:enabled="false"
+            android:persistent="true"
+            android:summary="@string/dev_prefs_summary"/>
+
+        <Preference
+            android:key="headerStyle"
+            android:persistent="true"
+            android:summary="@string/dev_drawer_header_style_summary"
+            android:title="@string/dev_drawer_header_style_title"/>
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="miniHeaderPic"
+            android:persistent="true"
+            android:summary="@string/dev_mini_header_picture_summary"
+            android:title="@string/dev_mini_header_picture_title"/>
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="drawerHeaderTexts"
+            android:persistent="true"
+            android:summary="@string/dev_drawer_header_texts_summary"
+            android:title="@string/dev_drawer_header_texts_title"/>
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="iconsChangelog"
+            android:persistent="true"
+            android:summary="@string/dev_icons_changelog_summary"
+            android:title="@string/dev_icons_changelog_title"/>
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="listsCards"
+            android:persistent="true"
+            android:summary="@string/dev_lists_cards_summary"
+            android:title="@string/dev_lists_cards_title"/>
+
+        <Preference
+            android:key="moreOptions"
+            android:persistent="true"
+            android:summary="@string/dev_more_options_summary"
+            android:title="@string/dev_more_options_title"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="uiPreferences"
+        android:title="@string/pref_header_ui">
+
+        <Preference
+            android:key="themes"
+            android:persistent="true"
+            android:summary="@string/pref_summary_themes"
+            android:title="@string/pref_title_themes"/>
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="coloredNavBar"
+            android:persistent="true"
+            android:summary="@string/pref_summary_navbar"
+            android:title="@string/pref_title_navbar"/>
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="animations"
+            android:persistent="true"
+            android:summary="@string/pref_summary_anims"
+            android:title="@string/pref_title_anims"/>
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="wallHeader"
+            android:persistent="true"
+            android:summary="@string/pref_summary_wall_header"
+            android:title="@string/pref_title_wall_header"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_header_storage">
+
+        <Preference
+            android:key="clearData"
+            android:persistent="true"
+            android:summary="@string/pref_summary_cache"
+            android:title="@string/pref_title_cache"/>
+
+        <Preference
+            android:key="wallsSaveLocation"
+            android:persistent="true"
+            android:summary="@string/pref_summary_wsl"
+            android:title="@string/pref_title_wsl"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="notifications"
+        android:title="@string/prefs_notifs_title">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="enableNotifs"
+            android:persistent="true"
+            android:summary="@string/pref_summary_enable_notifs"
+            android:title="@string/pref_title_enable_notifs"/>
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="enableNotifsLED"
+            android:persistent="true"
+            android:title="@string/pref_title_enable_notifs_led"/>
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="enableNotifsVibration"
+            android:persistent="true"
+            android:title="@string/pref_title_enable_notifs_vibration"/>
+
+        <Preference
+            android:key="notifsUpdateInterval"
+            android:persistent="true"
+            android:summary="@string/pref_summary_notifs_interval"
+            android:title="@string/pref_title_notifs_interval"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="launcherIconPreference"
+        android:title="@string/pref_header_launcher_icon">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="launcherIcon"
+            android:persistent="true"
+            android:summary="@string/pref_summary_launcher_icon"
+            android:title="@string/pref_title_launcher_icon"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

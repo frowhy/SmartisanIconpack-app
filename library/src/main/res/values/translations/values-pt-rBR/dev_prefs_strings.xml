@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+  ~ Copyright (c) 2016. Jahir Fiquitiva
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4. 0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons. org/licenses/by-sa/4. 0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License. 
+  ~
+  ~ Big thanks to the project contributors. Check them in the repository. 
+  ~
+  -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslations">
+    <string name="dev_prefs_title">Preferências de Desenvolvimento</string>
+    <string name="dev_prefs_summary">Estas preferências não estarão disponíveis nos aplicativos finais. Elas são feitas para que designers possam ver todas as opções que IconShowcase oferece. </string>
+    <string name="dev_drawer_header_style_title">Estilo do cabeçalho da gaveta</string>
+    <string name="dev_drawer_header_style_summary">Usando IconShowcase, você pode escolher entre 3 tipos de cabeçalhos</string>
+    <string name="dev_mini_header_picture_title">Imagem de gabeçalho da mini-gaveta</string>
+    <string name="dev_mini_header_picture_summary">Quando desativado, IconShowcase irá mostrar uma cor sólida ao invés de uma imagem. </string>
+    <string name="dev_icons_changelog_title">Mudanças feitas de ícones</string>
+    <string name="dev_icons_changelog_summary">IconShowcase oferece 2 tipos de logs de mudança: Um feito de textos, e um feito de ícones. </string>
+    <string name="dev_lists_cards_title">Cartas de lista</string>
+    <string name="dev_lists_cards_summary">IconShowcase oferece a opção de usar cartas ao invés de fundos sólidos. </string>
+    <string name="dev_drawer_header_texts_title">Mostrar textos do cabeçalho da gaveta</string>
+    <string name="dev_drawer_header_texts_summary">Quando desativado, IconShowcase não mostrará o nome e a versão do aplicativo no cabeçalho. </string>
+    <string name="dev_more_options_title">Mais opções</string>
+    <string name="dev_more_options_summary">IconShowcase oferece muitas outras opções que você pode utilizar enquanto constroe seu aplicativo. Toque aqui para checá-las. </string>
+    <string-array name="configurations_list">
+        <item>Estas opções também podem ser configuradas usando a o código-fonte do painel:</item>
+        <item>Interface completamente configurável. </item>
+        <item>Números de colunas para algumas seções. </item>
+        <item>Demonstrar seus aplicativos na seção principal. </item>
+        <item>Determinar o que seus usuários podem configurar. </item>
+    </string-array>
+    <string-array name="additional_features_list">
+        <item>Além disso, IconShowcase oferece:</item>
+        <item>Inspetor de licença. </item>
+        <item>Papéis de parede na nuvem. </item>
+        <item>Visualizador de papéis de parede com zoom. </item>
+        <item>Suporte para Muzei. </item>
+        <item>Suporte para widgets para Zooper. </item>
+        <item>Suporte para Kustom Live Wallpapers e suporte para Kustom Widgets. </item>
+        <item>Ferramenta de pedido de ícones. </item>
+        <item>Limite de pedidos: Por exemplo, X número de aplicativos à cada Y minutos, significando que seus pedidos serão restringidos além deste limite. </item>
+        <item>Suporte para mais de 25 launchers. </item>
+        <item>Widget de relógio analógico. </item>
+        <item>Suporte para tablets. </item>
+        <item>O aplicativo funciona como uma galeria para escolher ícones e papéis de parede e usá-los em outros aplicativos. </item>
+        <item>Painel traduzido em mais de 7 linguagens. </item>
+        <item>Suporte para Android 4. 1 e acima. </item>
+    </string-array>
+</resources>

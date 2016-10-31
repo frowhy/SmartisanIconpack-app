@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+  ~ Copyright (c) 2016. Jahir Fiquitiva
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4. 0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons. org/licenses/by-sa/4. 0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License. 
+  ~
+  ~ Big thanks to the project contributors. Check them in the repository. 
+  ~
+  -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslations">
+    <string name="dev_prefs_title">Opciones de desarrollo</string>
+    <string name="dev_prefs_summary">Éstas opciones no estarán disponibles en aplicaciones creadas con IconShowcase. Están hechas para que los diseñadores prueben las múltiples opciones de personalización que IconShowcase puede ofrecer. </string>
+    <string name="dev_drawer_header_style_title">Estilo del encabezado del menú lateral</string>
+    <string name="dev_drawer_header_style_summary">Cuando usas IconShowcase, puedes escoger entre 3 estilos diferentes de encabezado. </string>
+    <string name="dev_mini_header_picture_title">Imagen en encabezado de menú lateral pequeño</string>
+    <string name="dev_mini_header_picture_summary">Si se inhabilita, IconShowcase mostrará un encabezado de color sólido. </string>
+    <string name="dev_icons_changelog_title">Lista de cambios con íconos. </string>
+    <string name="dev_icons_changelog_summary">IconShowcase ofrece 2 estilos para la lista de cambios: uno de texto y otro con íconos. </string>
+    <string name="dev_lists_cards_title">Tarjetas en listas</string>
+    <string name="dev_lists_cards_summary">IconShowcase te ofrece la opción de mostrar las listas como tarjetas. </string>
+    <string name="dev_drawer_header_texts_title">Mostrar textos en el encabezado del menú lateral</string>
+    <string name="dev_drawer_header_texts_summary">Si se inhabilita, IconShowcase no mostrará el nombre ni la versión de la aplicación en el encabezado del menú lateral. </string>
+    <string name="dev_more_options_title">Más opciones</string>
+    <string name="dev_more_options_summary">IconShowcase ofrece muchas opciones adicionales que puedes configurar mientras desarrollas tu aplicación. Toca aquí para verlas. </string>
+    <string-array name="configurations_list">
+        <item>Éstas características pueden ser configuradas adicionalmente cuando usas la plantilla:</item>
+        <item>Interfaz completamente configurable. </item>
+        <item>Número de columnas para algunas secciones. </item>
+        <item>Presenta tus aplicaciones en la sección principal. </item>
+        <item>Decide qué quieres permitirles configurar a los usuarios. </item>
+    </string-array>
+    <string-array name="additional_features_list">
+        <item>Adicionalmente, IconShowcase ofrece algunas otras características:</item>
+        <item>Revisor de licencia. </item>
+        <item>Fondos de pantalla basados en la nube. </item>
+        <item>Visor de fondos de pantalla con opciones de zoom. </item>
+        <item>Soporte a Muzei. </item>
+        <item>Soporte a Zooper widgets. </item>
+        <item>Soporte a Kustom Live Wallpapers y Kustom Widgets. </item>
+        <item>Herramienta para solicitar íconos directamente desde la aplicación. </item>
+        <item>Limita las solicitudes de íconos: por ejemplo, X cantidad cada Y minutos. Lo que quiere decir que los usuarios sólo podrán solicitar X cantidad de aplicaciones cada Y minutos. </item>
+        <item>Soporte para más de 26 launchers. </item>
+        <item>Widget de reloj analógico. </item>
+        <item>Soporte para tablets. </item>
+        <item>La aplicación funciona como una galería para seleccionar íconos o fondos de pantalla, y usarlos en otras aplicaciones. </item>
+        <item>Plantilla traducida a más de 7 idiomas. </item>
+        <item>Soporte para Android 4. 1 y superior. </item>
+    </string-array>
+</resources>

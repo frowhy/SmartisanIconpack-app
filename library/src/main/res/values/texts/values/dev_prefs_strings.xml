@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016.  Jahir Fiquitiva
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4.0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons.org/licenses/by-sa/4.0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~ Big thanks to the project contributors. Check them in the repository.
+  ~
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslations">
+
+    <string name="dev_prefs_title">Development Preferences</string>
+    <string name="dev_prefs_summary">These preferences won\'t be available in final apps. These are made just for designers to check the multiple customization options IconShowcase can offer.</string>
+
+    <string name="dev_drawer_header_style_title">Drawer header style</string>
+    <string name="dev_drawer_header_style_summary">When using IconShowcase you can choose between 3 different drawer header styles.</string>
+
+    <string name="dev_mini_header_picture_title">Mini drawer header picture</string>
+    <string name="dev_mini_header_picture_summary">When disabled, IconShowcase will show a solid color header.</string>
+
+    <string name="dev_icons_changelog_title">Icons based changelog</string>
+    <string name="dev_icons_changelog_summary">IconShowcase offers 2 changelog styles: a text based one and an icons based one.</string>
+
+    <string name="dev_lists_cards_title">Lists cards</string>
+    <string name="dev_lists_cards_summary">IconShowcase offers you the option to show some lists as cards instead of flat stuff.</string>
+
+    <string name="dev_drawer_header_texts_title">Show drawer header texts</string>
+    <string name="dev_drawer_header_texts_summary">When disabled, IconShowcase won\'t show app\'s name and version in the drawer\'s header.</string>
+
+    <string name="dev_more_options_title">More options</string>
+    <string name="dev_more_options_summary">IconShowcase offers many other additional options you can setup while building your app. Tap here to check them.</string>
+
+    <array name="drawer_header_styles">
+        <item>Full height header</item>
+        <item>Mini header</item>
+        <item>No header</item>
+    </array>
+
+    <string-array name="configurations_list">
+        <item>These features can be additionally configured when using the dashboard source:</item>
+        <item>Completely configurable UI.</item>
+        <item>Columns number for some sections.</item>
+        <item>Showcase your apps in main section.</item>
+        <item>Setup what you want users to be able to configure.</item>
+    </string-array>
+
+    <string-array name="additional_features_list">
+        <item>Additionally, IconShowcase offers some other features:</item>
+        <item>License checker.</item>
+        <item>Cloud based wallpapers.</item>
+        <item>Wallpapers viewer with zooming capabilities.</item>
+        <item>Muzei Support.</item>
+        <item>Zooper widgets support.</item>
+        <item>Kustom Live Wallpapers and Kustom Widgets support.</item>
+        <item>In-app icon request tool.</item>
+        <item>Icon Requests limit: for example, X apps every Y minutes. Meaning users will be able
+            to request X apps only every Y minutes.
+        </item>
+        <item>Support for more than 25 launchers.</item>
+        <item>Analog clock widget.</item>
+        <item>Tablet support.</item>
+        <item>App works as a gallery to pick icons or wallpapers and use them in other apps.</item>
+        <item>Dashboard translated to more than 7 languages.</item>
+        <item>Support for Android 4.1 and up.</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,55 @@
+<LinearLayout
+    android:id="@+id/home_card"
+    style="@style/HomeCardContent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/home_card_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+    <LinearLayout
+        android:id="@+id/home_card_sub_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:clickable="false"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/md_listitem_height"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <jahirfiquitiva.iconshowcase.views.SquaredImageView
+            android:id="@+id/home_card_image"
+            android:layout_width="@dimen/app_card_icon_size"
+            android:layout_height="@dimen/app_card_icon_size"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/home_card_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:gravity="center_vertical"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

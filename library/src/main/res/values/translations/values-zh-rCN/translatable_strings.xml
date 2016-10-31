@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016.  Jahir Fiquitiva
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4.0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons.org/licenses/by-sa/4.0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~ Big thanks to the project contributors. Check them in the repository.
+  ~
+  -->
+
+<!--
+  ~
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="weibo">微博</string>
+
+    <string name="muzei_settings">Muzei设置</string>
+    <!-- Sharing wallpaper from Muzei -->
+    <string name="share_text">我今天的壁纸是%2$s的%1$s，来自%3$s，下载请至%4$s</string>
+
+    <!-- List Of Drawer Sections -->
+    <string name="section_home">主页</string>
+    <string name="section_icons">图标</string>
+    <string name="section_apply">应用</string>
+    <string name="section_wallpapers">壁纸</string>
+    <string name="section_icon_request">补全图标</string>
+    <string name="section_donate">捐赠</string>
+    <string name="section_about">关于</string>
+
+    <!-- Wallpapers Activity -->
+    <string name="title_activity_detailed_wallpaper">壁纸查看器</string>
+
+    <!-- Muzei Stuff -->
+    <string name="muzeisets_title">刷新壁纸每：</string>
+    <string name="seconds">秒</string>
+    <string name="minutes">分钟</string>
+    <string name="hours">小时</string>
+    <string name="days">天</string>
+    <string name="weeks">星期</string>
+    <string name="months">月</string>
+    <string name="muzei_info">注：这些设置会影响壁纸的更新行为。
+    </string>
+    <string name="share">分享</string>
+
+    <string name="send_email">发送邮件</string>
+
+    <!-- Strings for Dropdown Menu & Requests -->
+    <string name="share_title">分享通过</string>
+    <string name="send_title">发送通过</string>
+    <string name="changelog">更新日志</string>
+
+    <!-- LauncherNotInstalled Dialog -->
+    <string name="lni_content">您的设备尚未安装%1$s。\n是否前往Play商店以安装？
+    </string>
+    <string name="cm_dialog_content">%1$s是CyanogenMod ROM或基于CyanogenMod ROM的一部分。\n是否在您的设备上安装？</string>
+    <string name="gnl_title">不适用于谷歌即时桌面</string>
+    <string name="gnl_content">任何图标包均不适用于谷歌即时桌面。请勿因此原因给出低评分。有其他方法供您一试，但其需要安装其他应用。是否下载？</string>
+
+    <string name="lg_dialog_content">很抱歉，LG主页应用是LG设备独有内容，因此无法从Play商店获取</string>
+
+    <!-- Changelog Dialog Content -->
+    <string name="changelog_dialog_title">更新日志</string>
+    <string name="great">知道了</string>
+
+    <!-- Wallpapers Stuff -->
+    <string name="no_conn_title">无可用连接</string>
+    <string name="download">下载</string>
+    <string name="wallpaper_downloaded">壁纸已下载至%1$s</string>
+    <string name="wallpaper_by">来自：%1$s</string>
+    <string name="apply">应用</string>
+    <string name="save">保存</string>
+    <string name="downloading_wallpaper">正在下载该壁纸…</string>
+    <string name="setting_wall_title">设置该壁纸为主屏幕壁纸…</string>
+    <string name="preparing_wallpaper">正在准备待裁剪壁纸…</string>
+    <string name="download_takes_longer">这比预期所花的时间更久。您可以继续等待或取消。</string>
+    <string name="set_as_wall_done">设置壁纸成功！</string>
+    <string name="error">错误</string>
+    <string name="confirm_apply">您确定要将该壁纸应用到您的主屏幕？</string>
+    <string name="refreshing_walls">刷新壁纸列表…</string>
+    <string name="retry">重试</string>
+    <string name="wallpaper_author_title">作者</string>
+    <string name="wallpaper_dimensions_title">外形尺寸</string>
+    <string name="wallpaper_copyright_title">版权</string>
+
+    <string name="settings_saved">设置已保存。壁纸将更换为%1$s。</string>
+
+    <!-- License Check Dialog -->
+    <string name="license_failed_title">许可证检查失败</string>
+    <string name="license_success_title">许可证检查成功</string>
+    <string name="exit">退出</string>
+
+    <!-- Some texts for Dialogs and Cards -->
+    <string name="close">关闭</string>
+    <string name="crop">剪裁</string>
+    <string name="advice">建议</string>
+    <string name="dontshow">不再显示</string>
+    <string name="rate">评分</string>
+    <string name="set_as">剪裁壁纸并设置为…</string>
+
+    <!-- Requests -->
+    <string name="select_all">全选</string>
+    <string name="no_selected_apps_title">未选择的图标</string>
+    <string name="no_selected_apps_content">您未选择任何图标来用于发送请求。请在重试前选择一些用于发送请求的图标。</string>
+    <string name="apps_limit_dialog">抱歉，您只能选择至多%1$s个应用。</string>
+    <string name="apps_limit_dialog_more">抱歉，您暂时只能再添加至多%1$s个应用。</string>
+    <string name="apps_limit_dialog_day">抱歉，您只能每%1$s提交一次图标请求。</string>
+    <string name="apps_limit_dialog_day_extra">您将在%1$s后可再次提交图标请求。</string>
+    <string name="apps_limit_dialog_day_extra_sec">您将在不到一分钟后可再次提交图标请求。</string>
+
+    <!-- Icon search -->
+    <string name="search_icons">搜索图标...</string>
+    <string name="search_x">搜索%1$s...</string>
+
+    <string name="building_request_dialog">正在构建所需文件...</string>
+    <string name="loading_apps">请等待应用加载完成，这不会花很久...</string>
+    <string name="loading_icons">图标加载中...</string>
+
+    <string name="choose">选择</string>
+
+    <!--SETTINGS-->
+    <string name="title_settings">设置</string>
+
+    <string name="pref_header_ui">用户界面</string>
+
+    <string name="pref_title_themes">基本主题</string>
+    <string name="pref_summary_themes">选择亮色、暗色、透明或自动。</string>
+    <string name="pref_summary_themes_no_clear">选择亮色、暗色或自动。</string>
+
+    <string-array name="themes">
+        <item>亮色</item>
+        <item>暗色</item>
+        <item>透明</item>
+        <item>自动</item>
+    </string-array>
+
+    <string-array name="themes_no_clear">
+        <item>亮色</item>
+        <item>暗色</item>
+        <item>自动</item>
+    </string-array>
+
+    <string name="pref_title_anims">启用动画</string>
+    <string name="pref_summary_anims">这可能在部分机型上造成卡顿。</string>
+
+    <string name="pref_title_navbar">导航栏着色</string>
+    <string name="pref_summary_navbar">使导航栏颜色与主色调一致。</string>
+
+    <string name="pref_title_wall_header">将壁纸用作工具栏横幅</string>
+    <string name="pref_summary_wall_header">您现在的壁纸将显示在应用的工具栏上。</string>
+
+    <string name="pref_header_storage">存储</string>
+
+    <string name="pref_title_cache">清理缓存数据</string>
+    <string name="pref_summary_cache">这将会清除缓存和设置。\n当前缓存：%1$s</string>
+
+    <string name="pref_title_wsl">壁纸下载路径</string>
+    <string name="pref_summary_wsl">改变壁纸保存路径。\n当前路径：%1$s</string>
+
+    <string name="pref_header_launcher_icon">启动器图标</string>
+    <string name="pref_title_launcher_icon">隐藏启动器图标</string>
+    <string name="pref_summary_launcher_icon">一旦选择，启动器图标将被隐藏。</string>
+
+    <string name="clearcache_dialog_content">确定清除应用数据、缓存和设置？已应用的图标将不会受到影响。</string>
+
+    <string name="hideicon_dialog_title">警告！</string>
+    <string name="hideicon_dialog_content">是否隐藏启动器中的图标？\n应用可能会意外关闭。如需恢复图标，请在隐藏之前阅读说明。</string>
+
+    <string name="prefs_notifs_title">通知</string>
+    <string name="pref_title_enable_notifs">启用通知</string>
+    <string name="pref_summary_enable_notifs">接受新壁纸与开发动态的通知。</string>
+
+    <string name="pref_title_enable_notifs_led">启用通知LED灯</string>
+    <string name="pref_title_enable_notifs_vibration">启用通知振动</string>
+
+    <string name="pref_title_notifs_interval">更新与同步间隔</string>
+    <string name="pref_summary_notifs_interval">您想让本应用多久查看一次是否有新通知？</string>
+    <string name="pref_summary_notifs_interval_more">应用将每%1$s查看一次是否有新通知。</string>
+
+    <string name="launcher_icon_restored">%1$s启动器图标已重置</string>
+    <string name="launcher_icon_no_restored">%1$s启动器图标已可见</string>
+    <string name="launcher_icon_restorer_error">%1$s的代码有一个问题。请联系其开发者。</string>
+
+    <!-- Widgets Names -->
+    <string name="iconrestorer_widget_title">图标重置部件</string>
+    <string name="clock_widget_title">模拟时钟</string>
+
+    <string name="faqs_section">常见问题</string>
+
+    <string name="dashboard_author">Dashboard App Development</string>
+    <string name="dashboard_author_copyright">From Colombia to the world.\nDashboard shared under CreativeCommons Attribution-ShareAlike License. Copyright © 2016.</string>
+    <string name="iconpack_author">Designer Info</string>
+
+    <string name="fork_on_github">Fork</string>
+    <string name="visit_website">网站</string>
+    <string name="more_apps">其他商店</string>
+    <string name="more_apps_long">查看我在其他商店发布的链接。</string>
+
+    <string name="implemented_libraries">库</string>
+    <string name="contributors">鸣谢</string>
+    <string name="sherry_title">感谢赵雅</string>
+    <string name="sherry_dialog">锤子图标是免费的，这得感谢她。</string>
+    <string name="follow_her">关注她</string>
+
+    <string name="ui_design">用户界面设计合作者</string>
+    <string name="donate">支持开发</string>
+    <string name="donate_summary">如果你认为frowhy理应于经济方面受益于此应用。</string>
+    <string name="report_bugs">问题反馈</string>
+    <string name="report_bugs_summary">反馈问题或请求新功能。</string>
+    <string name="join_community">加入Google+社区</string>
+    <string name="join_community_summary">如果您有问题或需要帮助，Google+上的图标橱窗社区成员会帮助您。</string>
+
+    <string name="saving_wallpaper">正在保存壁纸…</string>
+    <string name="refresh">刷新</string>
+
+    <!-- Messages shown when using LicenseChecker -->
+    <string name="license_failed">您未从Play商店下载%1$s。现在您有两个选择：</string>
+    <string name="license_success">感谢下载%1$s。喜欢的话就去评分然后写个评测吧。</string>
+    <string name="apply_advice">如果您所用的启动器不在列表中，您必须直接从该启动器的设置中应用图标。\n有些启动器不支持直接设置图标。</string>
+    <string name="walls_advice">点击壁纸以全屏查看。\n长按将其设为主屏幕壁纸。</string>
+
+    <string name="zooper_section_title">Zooper Setup</string>
+    <string name="zooper_download_dialog_title">下载自</string>
+
+    <string name="install_apps">安装应用</string>
+    <string name="install_apps_content">您需要安装这些应用以便Zooper挂件正常运行。点击以安装。</string>
+    <string name="install_kustom_apps_content">您需要安装这些应用以便Kustom assets正常运行。点击以安装</string>
+
+    <string name="install_assets">安装assets</string>
+
+    <string name="open">打开</string>
+
+    <string name="assets_installed">Assets已存在</string>
+    <string name="apps_installed">应用已存在</string>
+    <string name="copying_assets">正在复制文件至ZooperWidget/%1$s</string>
+
+    <string name="icon_pack_in_numbers">图标包数量</string>
+    <string name="themed_icons">超过%1$s个已绘制的图标。</string>
+    <string name="available_wallpapers">约%1$s张壁纸。</string>
+    <string name="included_widgets">超过%1$s个Zooper小部件。</string>
+    <string name="icons">图标</string>
+
+    <string name="md_storage_perm_error">您尚未允许%1$s的外置存储读取权限，这项操作需要这项权限来完成。</string>
+
+    <string name="new_folder">新文件夹</string>
+    <string name="new_folder_hint">文件夹名称</string>
+    <string name="new_folder_title">新建文件夹</string>
+    <string name="new_folder_content">请输入文件夹名称。</string>
+
+    <string name="wait_for_walls">请稍候，直至出现壁纸预览…</string>
+    <string name="translators">译者</string>
+    <string name="more">更多</string>
+
+    <string name="columns">列数</string>
+    <string name="columns_desc">选择列数：</string>
+    <string-array name="columns_options" tools:ignore="InconsistentArrays">
+        <item>竖：1 / 横：3</item>
+        <item>竖：2 / 横：4</item>
+        <item>竖：3 / 横：5</item>
+    </string-array>
+
+    <string-array name="questions">
+        <item>如何使用图标包？</item>
+        <item>如何应用图标包？</item>
+        <item>如何查看所有图标？</item>
+        <item>如何替换某些图标？</item>
+        <item>如何申请未绘制图标？</item>
+        <item>重启设备后，图标包未应用。图标被重置为原始状态。</item>
+        <item>为何图标在我的设备上看起来有些像素化？</item>
+        <item>我可以在图标包列表中看到X的图标。但应用图标并未覆盖。</item>
+        <item>如何为隐藏的应用设置图标？</item>
+        <item>如何打开隐藏应用？</item>
+        <item>如何使图标重现？</item>
+        <item>应用为何需要存储读取权限？</item>
+        <item>应用为何需要网络访问？</item>
+        <item>应用为何需要查看连接？</item>
+        <item>应用为何需要设置壁纸权限？</item>
+        <item>应用为什么需要调整壁纸大小的权限？</item>
+        <item>应用为什么需要阻止手机进入休眠的权限？</item>
+    </string-array>
+
+    <string-array name="answers">
+        <item>您需要一个支持图标包的启动器。
+查看Play商店描述页面获取受支持的启动器。
+如果您不清楚应当使用哪一个启动器，只需前往“应用”页面，然后从列表中选择一个启动器。
+        </item>
+        <item>从左侧滑出导航抽屉，然后前往“应用”页面，或返回到应用主页，然后点击浮动按钮。
+选择你需要应用图标的启动器。
+如果您的启动器不在列表中，但图标包是兼容它的（Play商店描述页面有关于受支持的启动器列表），您可以从您所使用的启动器的设置页面手动应用。
+        </item>
+        <item>从左侧滑出导航抽屉，然后前往“图标”页面，或返回到应用主页，然后点击“图标”按钮。</item>
+        <item>它取决于您所使用的启动器。不是所有启动器都支持编辑图标。
+但您可以在大多数启动器里通过长按或双击图标来编辑它。
+        </item>
+        <item>从左侧滑出导航抽屉，然后前往“图标请求”页面。
+        </item>
+        <item>当图标包被移动到SD卡时会出现这种情况，您应当将它安装在内部存储空间里。
+        </item>
+        <item>当面对高分辨率时，这种问题可能会因您所使用的启动器而出现。
+您可以通过调整图标大小至115-120%来解决这个问题。
+或者尝试使用其它启动器。
+        </item>
+        <item>发送图标请求。</item>
+        <item>从左侧滑出导航抽屉，然后前往“设置”页面。
+然后打开“隐藏启动器图标”选项。
+        </item>
+        <item>前往您的主屏幕，然后给名为“IconRestorer”的应用添加一个小部件。</item>
+        <item>从左侧滑出导航抽屉，然后前往“设置”页面。
+然后关闭“隐藏启动器图标”选项。
+        </item>
+        <item>应用需要能够发送图标请求数据与文件，和保存壁纸，以及更改壁纸下载路径。</item>
+        <item>应用需要能够载入云端壁纸以及下载壁纸</item>
+        <item>应用需要能够检查您的设备是否已连接到互联网。</item>
+        <item>应用需要能够在应用内直接应用壁纸。</item>
+        <item>应用需要能够根据您的屏幕分辨率而调整壁纸尺寸。
+        </item>
+        <item>这是Muzei动态壁纸所需。</item>
+    </string-array>
+
+    <string name="no_apply_tab">请联系开发者，应用似乎丢失了一些东西。</string>
+
+    <!--No Theme Engine Dialog-->
+    <string name="NTED_title">哦天哪，不！</string>
+    <string name="NTED_message">似乎我们无法在您的设备上找到主题引擎。如果您确信您的设备存在主题引擎，请打开它并在那里执行操作。如果您的设备，请刷写一个支持CyanogenMod主题引擎或Layer主题引擎的ROM，并遵循它们的使用说明。</string>
+
+    <string name="tap_to_download">%1$s\n点击以下载。</string>
+    <string name="tap_to_open">%1$s\n点击以打开应用。</string>
+
+    <string name="donations_error_title">捐赠不可用</string>
+    <string name="donations_error_content">您的设备不支持应用内付款。\n这可能意味着您需要更新Play商店应用，或是因为您所居住的国家不支持应用内付款。 </string>
+
+    <string name="new_walls_notif_title">有新的壁纸在%1$s。</string>
+    <string name="new_walls_notif_content">有%1$s张新增壁纸可用。点击通知以进入应用查看。</string>
+    <string name="news">新动态</string>
+
+    <string-array name="update_intervals">
+        <item>每小时。</item>
+        <item>每6小时。</item>
+        <item>每12小时。</item>
+        <item>每24小时。</item>
+        <item>每两天。</item>
+        <item>每四天。</item>
+        <item>每七天。</item>
+    </string-array>
+
+</resources>

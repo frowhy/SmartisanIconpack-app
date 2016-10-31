@@ -1,0 +1,72 @@
+apply plugin: 'com.android.application'
+
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "24.0.2"
+    lintOptions {
+        abortOnError false
+    }
+    defaultConfig {
+        applicationId "com.frowhy.smartisan"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 301
+        versionName '3.0.1'
+        vectorDrawables.useSupportLibrary = true
+    }
+    sourceSets {
+        main {
+            res.srcDirs = [
+                    'src/main/res',
+                    'src/main/res/drawable',
+                    'src/main/res/drawable/dashboard',
+                    'src/main/res/drawable/designer',
+                    'src/main/res/drawable/icon_pack',
+                    'src/main/res/drawable/launchers_icons',
+                    'src/main/res/drawable/widgets',
+                    'src/main/res/values/',
+                    'src/main/res/values/icon_pack',
+                    'src/main/res/values/configuration'
+            ]
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        aaptOptions {
+            noCompress 'zip', 'komp', 'klwp', 'kwgt', 'klck', 'kwch'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //Main library
+    //    compile 'com.github.jahirfiquitiva:IconShowcase:1.9.6.1@aar'
+    //Android support libraries needed to build the sample
+    compile 'com.android.support:appcompat-v7:25.0.0@aar'
+    compile project(':library')
+    //Material Dialogs
+    //Material Drawer
+    //OkHttp
+    //Glide Library - Image Loading Lib
+    //Sectioned RecyclerView
+    //Muzei API
+    //noinspection GradleDynamicVersion
+    //Circular Image View
+    //RecyclerView Fast Scroller
+    //Donations Lib
+    //License Checker Lib
+    //Required for better Zooper setup
+    //Required for Kustom support.
+    //noinspection GradleDynamicVersion
+}

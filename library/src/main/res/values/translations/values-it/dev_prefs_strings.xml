@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+  ~ Copyright (c) 2016. Jahir Fiquitiva
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4. 0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons. org/licenses/by-sa/4. 0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License. 
+  ~
+  ~ Big thanks to the project contributors. Check them in the repository. 
+  ~
+  -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslations">
+    <string name="dev_prefs_title">Preferenze di sviluppo</string>
+    <string name="dev_prefs_summary">Queste preferenze non saranno disponibili nelle applicazioni finali. Servono solo ai creatori per controllare le molteplici opzioni di personalizzazione che IconShowcase può offrire. </string>
+    <string name="dev_drawer_header_style_title">Stile dell\'intestazione del drawer</string>
+    <string name="dev_drawer_header_style_summary">Quando si utilizza IconShowcase è possibile scegliere tra 3 diversi stili d\'intestazione del drawer. </string>
+    <string name="dev_mini_header_picture_title">Immagine mini d\'intestazione del drawer</string>
+    <string name="dev_mini_header_picture_summary">Quando disabilitato, IconShowcase mostrerà un colore solido d\'intestazione</string>
+    <string name="dev_icons_changelog_title">Changelog basato sulle icone</string>
+    <string name="dev_icons_changelog_summary">IconShowcase offre 2 stili di changelog: uno a base di testo e uno a base di icone. </string>
+    <string name="dev_lists_cards_title">Liste di carte</string>
+    <string name="dev_lists_cards_summary">IconShowcase offre la possibilità di mostrare alcune liste come carte anziché elementi piatti. </string>
+    <string name="dev_drawer_header_texts_title">Mostra i testi d\'intestazione del drawer</string>
+    <string name="dev_drawer_header_texts_summary">Quando disabilitato, IconShowcase non mostrerà il nome e le versione dell\'applicazione nell\'intestazione del drawer. </string>
+    <string name="dev_more_options_title">Più opzioni</string>
+    <string name="dev_more_options_summary">IconShowcase offre molte altre opzioni aggiuntive che è possibile impostare mentre costruisci l\'app. Premi qui per verificarle. </string>
+    <string-array name="configurations_list">
+        <item>"Queste caratteristiche possono essere inoltre configurate quando si sta usando il sorgente della dashboard: "</item>
+        <item>UI completamente configurabile. </item>
+        <item>Numero di colonne per alcune sezioni. </item>
+        <item>Mostra le tue applicazioni nella sezione principale. </item>
+        <item>Imposta ciò che gli utenti saranno in grado di configurare. </item>
+    </string-array>
+    <string-array name="additional_features_list">
+        <item>Inoltre, IconShowcase offre alcune altre caratteristiche:</item>
+        <item>Controllo licenza:</item>
+        <item>Sfondi basati su cloud. </item>
+        <item>Visualizzatore di sfondi con capacità di zoom. </item>
+        <item>Supporto a Muzei. </item>
+        <item>Supporto a Zooper Widget. </item>
+        <item>Supporto a Kustom Live Wallpapers e Kustom Widgets. </item>
+        <item>Strumento in-app per richiedere le icone. </item>
+        <item>Limite di richiesta icone: per esempio: X applicazioni ogni Y minuti. Significa che gli utenti potranno richiedere le applicazioni X solo ogni Y minuti. </item>
+        <item>Supporto a più di 25 launcher. </item>
+        <item>Widget orologio analogico. </item>
+        <item>Supporto ai tablet. </item>
+        <item>L\'applicazione funziona come una galleria per scegliere le icone e gli sfondi da poter usare anche in altre applicazioni. </item>
+        <item>Interfaccia tradotta in più di 7 lingue. </item>
+        <item>Supporto ad Android 4. 1 e superiori. </item>
+    </string-array>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016.  Jahir Fiquitiva
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4.0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons.org/licenses/by-sa/4.0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~ Big thanks to the project contributors. Check them in the repository.
+  ~
+  -->
+
+<resources>
+    
+    <!--
+    Do you want request items as cards?
+    True, means cards.
+    False, means flat stuff.
+    -->
+    <bool name="request_cards">false</bool>
+    
+    <!--
+    1. Set the max amount of apps to request.
+    2. Limit requests to 1 every X minutes.
+    
+    Replace X with the number of minutes you want.
+    60 means 1 request every 1 hour.
+    1440 means 1 request per day.
+    10080 means 1 request per week.
+    40320 means 1 request per month.
+
+    If the second is set to 0, users will be able to request as many times they want,
+    with the max apps limit.
+    
+    If the apps limit is 0, users won't be able to request anything.
+    
+    If the apps limit is -1, users can request as many times they want, and
+    as many apps they want.
+
+    -->
+    
+    <integer name="max_apps_to_request">-1</integer>
+    <integer name="limit_request_to_x_minutes">0</integer>
+
+</resources>

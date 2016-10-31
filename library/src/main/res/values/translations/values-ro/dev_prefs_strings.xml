@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+  ~ Copyright (c) 2016. Jahir Fiquitiva
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4. 0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons. org/licenses/by-sa/4. 0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License. 
+  ~
+  ~ Big thanks to the project contributors. Check them in the repository. 
+  ~
+  -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslations">
+    <string name="dev_prefs_title">Preferinte de dezvoltare</string>
+    <string name="dev_prefs_summary">Aceste preferințe nu vor fi disponibile în aplicația finala. Acestea sunt făcute doar pentru designeri pentru a verifica mai multe opțiuni de personalizare ce poate oferi IconShowcase. </string>
+    <string name="dev_drawer_header_style_title">Stilul antet al sertarului</string>
+    <string name="dev_drawer_header_style_summary">"Cand utilizezi IconShowcase poti sa alegi intre 3 diferite stiluri de sertar "</string>
+    <string name="dev_mini_header_picture_title">Mini sertar pentru imaginile antet</string>
+    <string name="dev_mini_header_picture_summary">Cand dezactivezi,IconShowcase iti va arata o culoare solida in antet. </string>
+    <string name="dev_icons_changelog_title">Schimbari bazate pe icoane</string>
+    <string name="dev_icons_changelog_summary">IconShowcase ofera 2 stiluri de optiuni:ca si text sau ca si icoane</string>
+    <string name="dev_lists_cards_title">Lista de Carduri</string>
+    <string name="dev_lists_cards_summary">IconShowcase iti da optiunea de a arata lista de carduri in locul obiectelor plate</string>
+    <string name="dev_drawer_header_texts_title">Arata textul in sertarul antet</string>
+    <string name="dev_drawer_header_texts_summary">Cand dezactivezi,IconShowcase nu va arata numele aplicatiilor sau versiunea in sertarul antet</string>
+    <string name="dev_more_options_title">Mai multe optiuni</string>
+    <string name="dev_more_options_summary">IconShowcase ofera mai multe optiuni aditionale si le poti seta in timpul ce iti construiesti aplicatia. Apasa aici pentru a le vedea</string>
+    <string-array name="configurations_list">
+        <item>Aceste optiuni pot fi configurate aditional cand utilizezi sursa dashboardului:</item>
+        <item>Configurarea completa UI. </item>
+        <item>Numărul de coloane pentru unele secțiuni. </item>
+        <item>Aratati aplicațiile în secțiunea principală. </item>
+        <item>Setati ce vreti ca useri sa poata configura. </item>
+    </string-array>
+    <string-array name="additional_features_list">
+        <item>Aditional,IconShowcase ofera si alte optiuni:</item>
+        <item>Verificare licenta. </item>
+        <item>Imagini incarcate in cloud. </item>
+        <item>Vizualizarea Imaginilor utilizand zoom. </item>
+        <item>Muzei suport. </item>
+        <item>Zooper Widget-uri suport. </item>
+        <item>Kustom Imagini live și de sprijin Kustom Widget-uri. </item>
+        <item>Solicitari de icoane direct din aplicatie</item>
+        <item>Limita pentru cereri de icoane:de exemplu, X aplicații la fiecare Y minute. Utilizatorii vor putea solicita aplicații X numai la fiecare Y minute. </item>
+        <item>Suport pentru mai mult de 25 de launchere</item>
+        <item>Ceas analog widget. </item>
+        <item>Sprijin tabletă. </item>
+        <item>Aplicatia functioneaza ca si o galerie de unde puteti selecta icoane sau imagini ca sa le folosoti in alte aplicatii. </item>
+        <item>Aplicatia este tradusa in mai mult de 7 limbi. </item>
+        <item>Suport pentru android 4. 1 in sus. </item>
+    </string-array>
+</resources>

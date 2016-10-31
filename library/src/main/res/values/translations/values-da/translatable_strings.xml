@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+  ~ Copyright (c) 2016. Jahir Fiquitiva
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4. 0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons. org/licenses/by-sa/4. 0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License. 
+  ~
+  ~ Big thanks to the project contributors. Check them in the repository. 
+  ~
+  -->
+    <!--
+  ~
+  -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="muzei_settings">Muzei Indstillinger</string>
+    <!-- Sharing wallpaper from Muzei -->
+    <string name="share_text">Min baggrund for i dag, er %1$s af %2$s, fra %3$s.\nHent den nu på %4$s</string>
+    <!-- List Of Drawer Sections -->
+    <string name="section_home">Hjem</string>
+    <string name="section_icons">Ikoner</string>
+    <string name="section_apply">Anvend</string>
+    <string name="section_wallpapers">Baggrunde</string>
+    <string name="section_icon_request">Anmodning om ikoner</string>
+    <string name="section_donate">Doner</string>
+    <string name="section_about">Om app</string>
+    <!-- Wallpapers Activity -->
+    <string name="title_activity_detailed_wallpaper">Baggrunde fremviser</string>
+    <!-- Muzei Stuff -->
+    <string name="muzeisets_title">Opdater wallpapers altid:</string>
+    <string name="seconds">Sekunder</string>
+    <string name="minutes">Minutter</string>
+    <string name="hours">Timer</string>
+    <string name="days">Dage</string>
+    <string name="weeks">Uger</string>
+    <string name="months">Måneder</string>
+    <string name="muzei_info">Bemærk: Disse indstillinger kan påvirke opdateringen adfærd hos wallpapers. </string>
+    <string name="share">Del</string>
+    <string name="send_email">Send en e-mail</string>
+    <!-- Strings for Dropdown Menu & Requests -->
+    <string name="share_title">Del via</string>
+    <string name="send_title">Send via</string>
+    <string name="changelog">Hvad er nyt?</string>
+    <!-- LauncherNotInstalled Dialog -->
+    <string name="lni_content">%1$s er i øjeblikket ikke installeret på din enhed.\nVil du
+installere det fra Google Play Store?</string>
+    <string name="cm_dialog_content">%1$s er en del af CyanogenMod (baseret) roms.\nVil du
+installere det på din enhed?</string>
+    <string name="gnl_title">Google Nu Launcher er IKKE kompatibel!</string>
+    <string name="gnl_content">Google Nu Launcher er ikke kompatibel med NOGEN Ikon pakker. Vær sød ikke at
+bedømme ikon pakke negativt af denne grund. Der er en løsning, som du kan prøve for
+dig selv, men det kræver brug af en ekstern app. Vil du hente den?</string>
+    <string name="lg_dialog_content">Vi beklager, men LG Hjem app er eksklusiv LG enheder, og
+Derfor kan det ikke downloades fra Google Play Store. </string>
+    <!-- Changelog Dialog Content -->
+    <string name="changelog_dialog_title">Changelog</string>
+    <string name="great">Flot</string>
+    <!-- Wallpapers Stuff -->
+    <string name="no_conn_title">Ingen forbindelser fundet</string>
+    <string name="download">Download</string>
+    <string name="wallpaper_downloaded">Baggrunde blev downloadet til: %1$s</string>
+    <string name="wallpaper_by">Af: %1$s</string>
+    <string name="apply">Anvend</string>
+    <string name="save">Gem</string>
+    <string name="downloading_wallpaper">Downloader dette baggrund.... </string>
+    <string name="setting_wall_title">Indstilling af baggrund til dit hjem skærmen...</string>
+    <string name="preparing_wallpaper">Forberedelse tapet, der skal beskæres...</string>
+    <string name="download_takes_longer">Dette tager længere tid end forventet. Du er velkommen til at vente eller annullere denne handling. </string>
+    <string name="set_as_wall_done">Baggrunde sæt!</string>
+    <string name="error">"Error 404 "</string>
+    <string name="confirm_apply">Er du sikker på, du vil anvende denne baggrund til dit hjem skærmen?</string>
+    <string name="refreshing_walls">Forfriskende baggrundsbilleder liste ...</string>
+    <string name="retry">Prøv igen</string>
+    <string name="wallpaper_author_title">Ophavsmand</string>
+    <string name="wallpaper_dimensions_title">Mål</string>
+    <string name="wallpaper_copyright_title">Copyright</string>
+    <string name="settings_saved">Indstillinger gemt. baggrunde vil ændre hver %1$s. </string>
+    <!-- License Check Dialog -->
+    <string name="license_failed_title">Licens Check mislykkedes!</string>
+    <string name="license_success_title">Licens Check Vellykket!</string>
+    <string name="exit">Afslut</string>
+    <!-- Some texts for Dialogs and Cards -->
+    <string name="close">Luk</string>
+    <string name="crop">Afgrøde</string>
+    <string name="advice">Råd</string>
+    <string name="dontshow">Vis ikke igen</string>
+    <string name="rate">Bedøm</string>
+    <string name="set_as">Beskær baggrund og indstillet som...</string>
+    <!-- Requests -->
+    <string name="select_all">Vælg alle</string>
+    <string name="no_selected_apps_title">Ingen udvalgte apps</string>
+    <string name="no_selected_apps_content">Du valgte ikke en app til at anmode om. Vælg nogle før du trykker på FAB igen. </string>
+    <string name="apps_limit_dialog">Beklager, men du er kun tilladt at vælge %1$s apps til at anmode om. </string>
+    <string name="apps_limit_dialog_more">"beklager, men du er kun tilladt at anmode om %1$s flere apps til nu. "</string>
+    <string name="apps_limit_dialog_day">Beklager, men du er kun tilladt at anmode om ikoner hver %1$s. </string>
+    <string name="apps_limit_dialog_day_extra">Du vil være i stand til at anmode ikoner igen, i %1$s. </string>
+    <string name="apps_limit_dialog_day_extra_sec">Du vil være i stand til at anmode ikoner igen, på mindre end et minut. </string>
+    <!-- Icon search -->
+    <string name="search_icons">Søg i ikoner...</string>
+    <string name="search_x">Søg %1$s…</string>
+    <string name="building_request_dialog">Laver anmodning.... . </string>
+    <string name="loading_apps">Vent nu, indtil apps belastning, vil det tage et par sekunder mere ...</string>
+    <string name="loading_icons">Henter ikoner.... . </string>
+    <string name="choose">Vælg nu. . </string>
+    <!--SETTINGS-->
+    <string name="title_settings">Indstillinger</string>
+    <string name="pref_header_ui">UI</string>
+    <string name="pref_title_themes">Base tema</string>
+    <string name="pref_summary_themes">Vælg mellem lys, mørke, klar eller auto. </string>
+    <string name="pref_summary_themes_no_clear">Vælg mellem lys, mørk eller auto. </string>
+    <string-array name="themes">
+        <item>Lys</item>
+        <item>Mørk</item>
+        <item>Ryd... ;)</item>
+        <item>Automatisk</item>
+    </string-array>
+    <string-array name="themes_no_clear">
+        <item>Lyst</item>
+        <item>Mørkt</item>
+        <item>Automatisk</item>
+    </string-array>
+    <string name="pref_title_anims">Aktivér animationer</string>
+    <string name="pref_summary_anims">Dette kan medføre forsinkelse i nogle enheder. </string>
+    <string name="pref_title_navbar">Farvet navigationslinje</string>
+    <string name="pref_summary_navbar">Aktiver primær farvet navigationslinje. </string>
+    <string name="pref_title_wall_header">Slå brug af tapet som Toolbar header. . </string>
+    <string name="pref_summary_wall_header">Din aktuelle enhed baggrund vil blive vist i apps Toolbar. </string>
+    <string name="pref_header_storage">Opbevaring</string>
+    <string name="pref_title_cache">Ryd app cache og data</string>
+    <string name="pref_summary_cache">Dette vil slette app cache og præferencer.\nAktuel cache
+størrelse: %1$s</string>
+    <string name="pref_title_wsl">Baggrunde downloade placering</string>
+    <string name="pref_summary_wsl">Skift placering for at gemme eller hente baggrundsbilleder.\nI Current
+beliggenhed: %1$s</string>
+    <string name="pref_header_launcher_icon">Launcher ikon</string>
+    <string name="pref_title_launcher_icon">Skjul launcher ikon</string>
+    <string name="pref_summary_launcher_icon">Hvis markeret, vil launcher ikon være skjult. </string>
+    <string name="clearcache_dialog_content">Er du sikker på du vil slette appdata, cache i
+indstillinger? Anvendt ikoner vil ikke blive berørt. </string>
+    <string name="hideicon_dialog_title">Advarsel!</string>
+    <string name="hideicon_dialog_content">Er du sikker på du vil skjule app ikon i din launcher?
+\NAppen kan lukke uventet.\nDu kan læse FAQ for at lære at gøre det ud igen, før skjule
+det. </string>
+    <string name="prefs_notifs_title">Underretninger</string>
+    <string name="pref_title_enable_notifs">Aktiver underretninger</string>
+    <string name="pref_summary_enable_notifs">Modtag underretninger om nye baggrunde og udvikling nyheder. </string>
+    <string name="pref_title_enable_notifs_led">Aktiver underretninger LED</string>
+    <string name="pref_title_enable_notifs_vibration">Aktiver underretninger vibrationer</string>
+    <string name="pref_title_notifs_interval">Opdatering og synkronisere interval</string>
+    <string name="pref_summary_notifs_interval">Hvor ofte vil du have, at appen kan søge efter nye meddelelser?</string>
+    <string name="pref_summary_notifs_interval_more">App vil tjekke for nye meddelelser hver %1$s. </string>
+    <string name="launcher_icon_restored">%1$s launcher ikon blev restaureret</string>
+    <string name="launcher_icon_no_restored">%1$s launcher ikon er allerede synlige</string>
+    <string name="launcher_icon_restorer_error">Der er et problem med koden for %1$s. Kontakt venligst udvikler. </string>
+    <!-- Widgets Names -->
+    <string name="iconrestorer_widget_title">Ikon restaurator Widget</string>
+    <string name="clock_widget_title">Analogt ur</string>
+    <string name="faqs_section">FAQs</string>
+    <string name="dashboard_author">Dashboard App Udvikling</string>
+    <string name="dashboard_author_copyright">Fra Colombia til verden.\nDashboard delt under Creative Commons Attribution-ShareAlike License. Copyright © 2016. </string>
+    <string name="iconpack_author">Designer Info</string>
+    <string name="fork_on_github">Gaffel på GitHub</string>
+    <string name="visit_website">Hjemmeside</string>
+    <string name="more_apps">Flere apps</string>
+    <string name="more_apps_long">Tjek de andre apps, jeg har udgivet i Google Play Store. </string>
+    <string name="implemented_libraries">Gennemførte biblioteker</string>
+    <string name="contributors">Udvikling Bidrag</string>
+    <string name="sherry_title">"Tak til Zhaoya "</string>
+    <string name="sherry_dialog">Takket være hende, er IconSmartisan gratis. </string>
+    <string name="follow_her">Følg hende</string>
+    <string name="ui_design">UI Design Samarbejdspartnere</string>
+    <string name="donate">Udvikling Support</string>
+    <string name="donate_summary">Hvis du tror Jahir Fiquitiva fortjener at tjene nogle penge til at udvikle denne awesome instrumentbræt. </string>
+    <string name="report_bugs">Indberet af bugs</string>
+    <string name="report_bugs_summary">Indberet af fejl eller anmode nye funktioner. </string>
+    <string name="join_community">Deltag i Google Plus community</string>
+    <string name="join_community_summary">Hvis du har brug for hjælp eller har spørgsmål, er IconShowcase
+community på Google Plus, er et godt sted at gå. </string>
+    <string name="saving_wallpaper">Gemmer baggrund...</string>
+    <string name="refresh">Opdater</string>
+    <!-- Messages shown when using LicenseChecker -->
+    <string name="license_failed">Du har ikke downloadet %1$s fra Google Play Store. Du har to muligheder:</string>
+    <string name="license_success">Tak for at hente %1$s. Hvis du kan lide det, så glem ikke at vurdere det og skrive en anmeldelse i Google Play Butik. </string>
+    <string name="apply_advice">Hvis launcher, du bruger, er ikke opført her, skal du anvende den ikon pack direkte fra launcher indstillinger.\nNogle løfteraketter understøtter ikke direkte anvendelse. </string>
+    <string name="walls_advice">Simple tryk et tapet for at se det i fuld skærm.\nLangt tryk for at anvende det direkte til din hjemskærm. </string>
+    <string name="zooper_section_title">Zooper Setup</string>
+    <string name="zooper_download_dialog_title">Download fra</string>
+    <string name="install_apps">Installer apps</string>
+    <string name="install_apps_content">Du skal installere disse apps for Zooper widgets til at fungere korrekt. Tryk en til at installere det. </string>
+    <string name="install_kustom_apps_content">Du skal installere disse apps for Kustom aktiver til at fungere korrekt. Tryk en til at installere det. </string>
+    <string name="install_assets">Installer aktiver</string>
+    <string name="open">Åben</string>
+    <string name="assets_installed">Aktiver allerede installeret</string>
+    <string name="apps_installed">Apps er allerede installeret</string>
+    <string name="copying_assets">Kopiering af filer til ZooperWidget/%1$s</string>
+    <string name="icon_pack_in_numbers">Icon Pack i tal</string>
+    <string name="themed_icons">Over %1$s tema ikoner. </string>
+    <string name="available_wallpapers">Om %1$s tilgængelige baggrundsbilleder. </string>
+    <string name="included_widgets">Mere end %1$s inkludere widgets til Zooper. </string>
+    <string name="icons">Ikoner</string>
+    <string name="md_storage_perm_error">Du har ikke givet den \"Læs External Storage\" tilladelse til at %1$s, som er nødvendig for at fuldføre denne handling. </string>
+    <string name="new_folder">Ny mappe</string>
+    <string name="new_folder_hint">Mappe navn</string>
+    <string name="new_folder_title">Opret en ny mappe</string>
+    <string name="new_folder_content">Skriv den nye mappes navn, tak. </string>
+    <string name="wait_for_walls">Vent, indtil baggrund forhåndsvisning vises...</string>
+    <string name="translators">Oversættere</string>
+    <string name="more">Mere</string>
+    <string name="columns">Kolonner nummer</string>
+    <string name="columns_desc">Vælg mængden af kolonner, du ønsker at se i dette afsnit:</string>
+    <string-array name="columns_options" tools:ignore="InconsistentArrays">
+        <item>Portræt: 1 / Landskab: 3</item>
+        <item>Portræt: 2 / Landskab: 4</item>
+        <item>Portræt: 3 / Landskab: 5</item>
+    </string-array>
+    <string-array name="questions">
+        <item>Hvordan bruger man ikon pakke?</item>
+        <item>Hvordan kan man anvende ikon pakke?</item>
+        <item>Hvordan ser man alle de medfølgende ikoner?</item>
+        <item>Sådan udskifte visse ikoner med alternativer?</item>
+        <item>Hvordan bestiller utematiseret ikoner?</item>
+        <item>Efter genstart min enhed er ikon pack ikke anvendes længere. Ikoner blev gendannet til
+misligholdelse. </item>
+        <item>Hvorfor ser ikoner pixeleret ud, på min enhed?</item>
+        <item>Jeg kan se et ikon for X app i de inkluderede ikoner, men ikonet findes ikke finder anvendelse. </item>
+        <item>Hvordan skjuler man en app ikon fra launcher?</item>
+        <item>Sådan åbner den app efter app ikon er skjult fra launcher. </item>
+        <item>Hvordan viser app ikon i launcher igen?</item>
+        <item>Hvorfor har appen tilladelse til at ændre eller slette indholdet af min lagerplads?</item>
+        <item>Hvorfor har appen tilladelse til fuld netadgang?</item>
+        <item>Hvorfor behøver appen tilladelse til at se forbindelser?</item>
+        <item>Hvorfor har appen tilladelse til at sætte baggrund?</item>
+        <item>Hvorfor har appen tilladelse til at justere baggrund størrelse?</item>
+        <item>Hvorfor har appen tilladelse til at forhindre telefonen i at sove?</item>
+    </string-array>
+    <string-array name="answers">
+        <item>Du har brug for en launcher med Icon Pack support. 
+Kontroller Google Play Store beskrivelse af understøttede løfteraketter. 
+Hvis du ikke er sikker på hvilken launcher skal du bruge, bare gå til \"Anvend\" sektion, så kan du
+vælge en fra listen. </item>
+        <item>Skub NavigationDrawer fra venstre, og gå til \"Anvend\" sektionen, eller gå tilbage til hovedafsnit app, og tryk på Floating Action Button. 
+Vælg den launcher du vil anvende ikonerne på. 
+Hvis din launcher ikke er angivet der, men dette ikon pakke er kompatibel med det
+(Se på Google Play Store beskrivelse af listen over understøttede løfteraketter),
+du kan anvende det manuelt fra launcher indstillinger. </item>
+        <item>Skub Navigation Skuffe fra venstre, og gå til afsnittet \"Ikoner\", eller gå tilbage til hovedafsnit app, skal du trykke på knappen, der siger \"Ikoner\". </item>
+        <item>Det afhænger af den løfteraket, du bruger. Ikke alle løfteraket support ikon redigering. 
+Men i de fleste af dem, kan du redigere ikon ved lange trykke det eller laver en dobbelt tap. . </item>
+        <item>Skub Navigation Skuffe fra venstre, og gå til afsnittet \"Anmodning\". </item>
+        <item>Det skete, fordi ikon pakke blev flyttet til SD-kort, du SKAL du installere det i
+interne lager. </item>
+        <item>Problemet kan komme med løfteraket, du bruger, når du håndterer store opløsning. 
+Du kan ordne det ved at øge ikonstørrelse til 115 - 120%. 
+Eller prøv at bruge en anden løfteraket. </item>
+        <item>Send en ikon anmodning. </item>
+        <item>Skub Navigation Skuffe fra venstre, og gå til afsnittet \"Indstillinger\". 
+Kontrollér derefter \"Skjul ikon fra launcher\" valgmulighed. </item>
+        <item>Gå til dit hjem skærmen og derefter oprette en widget for den app, som navnet er \"IconRestorer\". </item>
+        <item>Skub Navigation Skuffe fra venstre, og gå til afsnittet \"Indstillinger\". 
+fjerne markeringen derefter på \"Skjul ikon fra launcher\" valgmulighed. </item>
+        <item>Det er nødvendigt at være i stand skrive ikon anmodninger data og filer, samt spare wallpapers, og være i stand til at ændre baggrunde downloade placering. </item>
+        <item>Det er nødvendigt at være i stand til at indlæse sky baserede baggrundsbilleder og downloade dem. </item>
+        <item>Det er nødvendigt at være i stand til at kontrollere, om enheden har internetforbindelse. </item>
+        <item>Det er nødvendigt for at kunne anvende baggrund direkte fra app. </item>
+        <item>Det er nødvendigt at være i stand til at justere baggrundsbilleder dimensioner baseret på din skærmopløsning. </item>
+        <item>Det er nødvendigt af Muzei Live Baggrund. </item>
+    </string-array>
+    <string name="no_apply_tab">Kontakt dev, fordi det der er noget der savnet i appen. </string>
+    <!--No Theme Engine Dialog-->
+    <string name="NTED_title">Åh åh!</string>
+    <string name="NTED_message">Det ser ud som vi ikke er i stand til at finde et tema motor på din telefon. Hvis du ved, du har en, skal du åbne den og gå videre derfra. Hvis du ikke har en, skal du få en rom, der understøtter enten CyanogenMod eller lag temaer og følge deres anvisninger. </string>
+    <string name="tap_to_download">%1$s\nTryk på dette kort for at hente den. </string>
+    <string name="tap_to_open">%1$s\nTryk på dette kort for at åbne appen. </string>
+    <string name="donations_error_title">donationer er utilgængelige</string>
+    <string name="donations_error_content">Enheden understøtter ikke In App Billing.\nDette kan skyldes, at du har brug for at opdatere din Google Play Store-program, eller fordi du bor i et land, hvor I App Fakturering er deaktiveret. </string>
+    <string name="new_walls_notif_title">Nye baggrundsbilleder til rådighed i %1$s. </string>
+    <string name="new_walls_notif_content">Der er %1$s nye baggrundsbilleder til rådighed. Tryk på meddelelsen for at åbne appen og kontrollere dem. </string>
+    <string name="news">Nyheder!!</string>
+    <string-array name="update_intervals">
+        <item>Hver time. </item>
+        <item>Hver 6. time. </item>
+        <item>Hver 12. time. </item>
+        <item>Hver 24. time. </item>
+        <item>Hver 2. dag. </item>
+        <item>Hver 4. dag. </item>
+        <item>Hver 7. dag. </item>
+    </string-array>
+</resources>

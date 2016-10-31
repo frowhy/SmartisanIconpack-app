@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016.  Jahir Fiquitiva
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4.0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons.org/licenses/by-sa/4.0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~ Big thanks to the project contributors. Check them in the repository.
+  ~
+  -->
+
+<resources>
+
+    <!--
+    Do you want to allow users to change app theme?
+    True, means yes.
+    False, means no.
+    -->
+    <bool name="allow_user_theme_change">true</bool>
+
+    <!--
+    Do you want to allow users to hide the app icon?
+    True, means yes.
+    False, means no.
+    -->
+    <bool name="allow_user_to_hide_app_icon">true</bool>
+
+    <!--
+    Do you plan to notify users about new wallpapers or other news?
+    True, means yes.
+    False, means no.
+    -->
+    <bool name="enable_notifications_service">true</bool>
+
+</resources>

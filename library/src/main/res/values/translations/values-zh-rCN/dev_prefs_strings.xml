@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016.  Jahir Fiquitiva
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4.0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons.org/licenses/by-sa/4.0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~ Big thanks to the project contributors. Check them in the repository.
+  ~
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslations">
+
+    <string name="dev_prefs_title">开发者选项</string>
+    <string name="dev_prefs_summary">这些选项不会出现于最终发布的应用中。它们只是为了方便设计师查看IconShowcase提供的更多自定义选项。</string>
+
+    <string name="dev_drawer_header_style_title">抽屉页头样式e</string>
+    <string name="dev_drawer_header_style_summary">使用IconShowcase时您可以选择三种不同的抽屉页头样式。</string>
+
+    <string name="dev_mini_header_picture_title">迷你抽屉页头图片</string>
+    <string name="dev_mini_header_picture_summary">当关闭时，图标橱窗会显示纯色页头。</string>
+
+    <string name="dev_icons_changelog_title">图标更新日志</string>
+    <string name="dev_icons_changelog_summary">图标橱窗提供两种更新日志样式：文字版和图标版</string>
+
+    <string name="dev_lists_cards_title">列表卡片</string>
+    <string name="dev_lists_cards_summary">图标橱窗为您提供展示一些列表为卡片式，而不是扁平的。</string>
+
+    <string name="dev_drawer_header_texts_title">显示抽屉页头文字</string>
+    <string name="dev_drawer_header_texts_summary">当关闭时，图标橱窗不会在抽屉页头显示应用名称与版本</string>
+
+    <string name="dev_more_options_title">更多选项</string>
+    <string name="dev_more_options_summary">图标橱窗在您开发您的应用时还提供了其它很多可选项。点击这里以查看。</string>
+
+    <array name="drawer_header_styles">
+        <item>全高的抽屉页头</item>
+        <item>迷你的抽屉页头</item>
+        <item>没有抽屉页头</item>
+    </array>
+
+    <string-array name="configurations_list">
+        <item>当使用Dashboard源时，可以对这些功能做出调整：</item>
+        <item>可自定用户界面。.</item>
+        <item>某些页面的列数。</item>
+        <item>主页面橱窗。</item>
+        <item>调整您想让用户可做出调整的选项。</item>
+    </string-array>
+
+    <string-array name="additional_features_list">
+        <item>此外，图标橱窗提供了其它一些功能：</item>
+        <item>许可证检查器。</item>
+        <item>云端壁纸。</item>
+        <item>可缩放图片的壁纸查看器</item>
+        <item>支持Muzei。</item>
+        <item>支持Zooper小部件。</item>
+        <item>支持Kustom壁纸及其小部件。</item>
+        <item>应用内图标补全工具。</item>
+        <item>图标请求限制：举例而言， 每Y分钟可提交X个应用。\n这意味着用户只有每Y分钟才可以提交X个应用。
+        </item>
+        <item>支持超过25个启动器。</item>
+        <item>模拟时钟小部件。</item>
+        <item>支持平板。</item>
+        <item>应用以图库的形式运行，以便选择图标或壁纸并将它们用于其它应用。</item>
+        <item>Dashboard已被翻译至超过7种语言。</item>
+        <item>支持Android 4.1及更高版本。</item>
+    </string-array>
+
+</resources>

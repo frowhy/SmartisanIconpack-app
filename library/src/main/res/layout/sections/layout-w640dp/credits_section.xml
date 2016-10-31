@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016.  Jahir Fiquitiva
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4.0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons.org/licenses/by-sa/4.0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~ Big thanks to the project contributors. Check them in the repository.
+  ~
+  -->
+
+<!--
+  ~
+  -->
+
+<android.support.v7.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:paddingBottom="8dp"
+    app:alignmentMode="alignBounds">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_column="0"
+        app:layout_columnWeight="1"
+        app:layout_row="0">
+
+        <jahirfiquitiva.iconshowcase.views.IconShowcaseCardView
+            android:id="@+id/designerCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cards_margin"
+            android:layout_marginRight="@dimen/cards_margin"
+            android:layout_marginTop="@dimen/cards_margin"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/cards_elevation">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/designerHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/credits_headers"
+                    android:scaleType="centerCrop"
+                    tools:ignore="ContentDescription"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/designerPhoto"
+                    android:layout_width="@dimen/credits_photo_size"
+                    android:layout_height="@dimen/credits_photo_size"
+                    android:layout_marginLeft="@dimen/cards_content_margin_small"
+                    android:layout_marginRight="@dimen/cards_content_margin_small"
+                    android:layout_marginTop="@dimen/credits_photo_margin"
+                    app:civ_border_color="?attr/colorCardBackground"
+                    app:civ_border_width="2dp"
+                    tools:ignore="ContentDescription"/>
+
+                <TextView
+                    android:id="@+id/designerName"
+                    style="@style/AboutContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/designerPhoto"
+                    android:layout_marginLeft="@dimen/cards_margin"
+                    android:layout_marginStart="@dimen/cards_margin"
+                    android:layout_marginTop="@dimen/cards_content_margin_small"
+                    android:layout_toEndOf="@id/designerPhoto"
+                    android:layout_toRightOf="@id/designerPhoto"
+                    android:text="@string/iconpack_author_name"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+                <TextView
+                    android:id="@+id/designerDesc"
+                    style="@style/AboutContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/designerName"
+                    android:layout_marginLeft="@dimen/cards_content_margin_small"
+                    android:layout_marginRight="@dimen/cards_content_margin_small"
+                    android:layout_marginTop="@dimen/cards_content_margin_mini"
+                    android:text="@string/iconpack_author_description"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+                <LinearLayout
+                    android:id="@+id/designerButtons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@id/designerDesc"
+                    android:layout_marginBottom="@dimen/cards_margin"
+                    android:layout_marginLeft="@dimen/cards_content_margin_s"
+                    android:layout_marginStart="@dimen/cards_content_margin_s"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/send_email_btn"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/send_email"
+                        android:textColor="?attr/accentColor"/>
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/googleplus_btn"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/google_plus"
+                        android:textColor="?attr/accentColor"/>
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/website_btn"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/visit_website"
+                        android:textColor="?attr/accentColor"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </jahirfiquitiva.iconshowcase.views.IconShowcaseCardView>
+
+        <jahirfiquitiva.iconshowcase.views.IconShowcaseCardView
+            android:id="@+id/sherryCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cards_margin"
+            android:layout_marginRight="@dimen/cards_margin"
+            android:layout_marginTop="@dimen/cards_margin"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:stateListAnimator="@anim/card_lift"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/cards_elevation"
+            app:cardPreventCornerOverlap="false"
+            >
+
+            <LinearLayout
+                android:id="@+id/collaboratorsSherry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:minHeight="@dimen/md_listitem_height"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/icon_sherry"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    tools:ignore="ContentDescription"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginStart="24dp"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="@string/sherry_title"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+            </LinearLayout>
+
+        </jahirfiquitiva.iconshowcase.views.IconShowcaseCardView>
+
+        <jahirfiquitiva.iconshowcase.views.IconShowcaseCardView
+            android:id="@+id/contributorsCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cards_margin"
+            android:layout_marginRight="@dimen/cards_margin"
+            android:layout_marginTop="@dimen/cards_margin"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:stateListAnimator="@anim/card_lift"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/cards_elevation"
+            app:cardPreventCornerOverlap="false"
+            >
+
+            <LinearLayout
+                android:id="@+id/collaborators"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:minHeight="@dimen/md_listitem_height"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/icon_collaborators"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    tools:ignore="ContentDescription"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginStart="24dp"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="@string/contributors"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+            </LinearLayout>
+
+        </jahirfiquitiva.iconshowcase.views.IconShowcaseCardView>
+
+        <jahirfiquitiva.iconshowcase.views.IconShowcaseCardView
+            android:id="@+id/uiDesignCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cards_margin"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:stateListAnimator="@anim/card_lift"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/cards_elevation"
+            app:cardPreventCornerOverlap="false"
+            >
+
+            <LinearLayout
+                android:id="@+id/uiDesign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:minHeight="@dimen/md_listitem_height"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp">
+
+                <ImageView
+                    android:id="@+id/icon_ui_design"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    tools:ignore="ContentDescription"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginStart="24dp"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="@string/ui_design"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+            </LinearLayout>
+
+        </jahirfiquitiva.iconshowcase.views.IconShowcaseCardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_column="1"
+        app:layout_columnWeight="1"
+        app:layout_row="0">
+
+        <jahirfiquitiva.iconshowcase.views.IconShowcaseCardView
+            android:id="@+id/translatorsCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cards_margin"
+            android:layout_marginRight="@dimen/cards_margin"
+            android:layout_marginTop="@dimen/cards_margin"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:stateListAnimator="@anim/card_lift"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/cards_elevation"
+            app:cardPreventCornerOverlap="false"
+            >
+
+            <LinearLayout
+                android:id="@+id/translators"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:minHeight="@dimen/md_listitem_height"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/icon_translators"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    tools:ignore="ContentDescription"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginStart="24dp"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="@string/translators"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+            </LinearLayout>
+
+        </jahirfiquitiva.iconshowcase.views.IconShowcaseCardView>
+
+        <jahirfiquitiva.iconshowcase.views.IconShowcaseCardView
+            android:id="@+id/libsCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/cards_margin"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:stateListAnimator="@anim/card_lift"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/cards_elevation"
+            app:cardPreventCornerOverlap="false"
+            >
+
+            <LinearLayout
+                android:id="@+id/libraries"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:minHeight="@dimen/md_listitem_height"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/icon_libs"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    tools:ignore="ContentDescription"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginStart="24dp"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:text="@string/implemented_libraries"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+            </LinearLayout>
+
+        </jahirfiquitiva.iconshowcase.views.IconShowcaseCardView>
+
+    </LinearLayout>
+
+</android.support.v7.widget.GridLayout>

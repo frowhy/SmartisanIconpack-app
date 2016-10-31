@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016.  Jahir Fiquitiva
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4.0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons.org/licenses/by-sa/4.0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~ Big thanks to the project contributors. Check them in the repository.
+  ~
+  -->
+
+<!--
+  ~
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!-- Structure :
+    Launcher Name|launcher.package.name
+    -->
+
+    <string-array name="launchers">
+        <item>Action|com.actionlauncher.playstore</item>
+        <item>ADW|org.adw.launcher</item>
+        <item>ADW EX|org.adwfreak.launcher</item>
+        <item>Apex|com.anddoes.launcher</item>
+        <item>Atom|com.dlto.atom.launcher</item>
+        <item>Aviate|com.tul.aviate</item>
+        <item>CM Theme Engine|org.cyanogenmod.theme.chooser</item>
+        <item>Go|com.gau.go.launcherex</item>
+        <item>Google Now|com.google.android.launcher</item>
+        <item>Holo|com.mobint.hololauncher</item>
+        <item>Holo ICS|com.mobint.hololauncher.hd</item>
+        <item>KK|com.kk.launcher</item>
+        <item>L|com.l.launcher</item>
+        <item>LG Home|com.lge.launcher2</item>
+        <item>Lucid|com.powerpoint45.launcher</item>
+        <item>Mini|com.jiubang.go.mini.launcher</item>
+        <item>Next|com.gtp.nextlauncher</item>
+        <item>Nova|com.teslacoilsw.launcher</item>
+        <item>S|com.s.launcher</item>
+        <item>Smart|ginlemon.flowerfree</item>
+        <item>Smart Pro|ginlemon.flowerpro</item>
+        <item>Solo|home.solo.launcher.free</item>
+        <item>TSF|com.tsf.shell</item>
+        <item>Unicon Pro|sg.ruqqq.IconThemer</item>
+    </string-array>
+	
+	<array name="launcher_colors">
+        <item>@color/action_launcher_color</item>
+        <item>@color/adw_launcher_color</item>
+        <item>@color/adw_ex_launcher_color</item>
+        <item>@color/apex_launcher_color</item>
+        <item>@color/atom_launcher_color</item>
+        <item>@color/aviate_launcher_color</item>
+        <item>@color/cm_theme_engine_color</item>
+        <item>@color/go_launcher_color</item>
+        <item>@color/google_now_launcher_color</item>
+        <item>@color/holo_launcher_color</item>
+        <item>@color/holo_ics_launcher_color</item>
+        <item>@color/kk_launcher_color</item>
+        <item>@color/l_launcher_color</item>
+        <item>@color/lg_home_color</item>
+        <item>@color/lucid_launcher_color</item>
+        <item>@color/mini_launcher_color</item>
+        <item>@color/next_launcher_color</item>
+        <item>@color/nova_launcher_color</item>
+        <item>@color/s_launcher_color</item>
+        <item>@color/smart_launcher_color</item>
+        <item>@color/smart_pro_launcher_color</item>
+        <item>@color/solo_launcher_color</item>
+        <item>@color/tsf_launcher_color</item>
+        <item>@color/unicon_pro_color</item>
+    </array>
+
+    <!-- COLORS FOR INSTALLED LAUNCHERS -->
+    <color name="action_launcher_color">#f44336</color>
+    <color name="adw_launcher_color">#2196f3</color>
+    <color name="adw_ex_launcher_color">#ffc107</color>
+    <color name="apex_launcher_color">#2196f3</color>
+    <color name="atom_launcher_color">#3f51b5</color>
+    <color name="aviate_launcher_color">#673ab7</color>
+    <color name="cm_theme_engine_color">#2196f3</color>
+    <color name="go_launcher_color">#8bc34a</color>
+    <color name="google_now_launcher_color">#2196f3</color>
+    <color name="holo_launcher_color">#03a9f4</color>
+    <color name="holo_ics_launcher_color">#78c257</color>
+    <color name="kk_launcher_color">#e91e63</color>
+    <color name="l_launcher_color">#ff5722</color>
+    <color name="lg_home_color">#00bcd4</color>
+    <color name="lucid_launcher_color">#2196f3</color>
+    <color name="mini_launcher_color">#c0ca33</color>
+    <color name="next_launcher_color">#3f51b5</color>
+    <color name="nova_launcher_color">#e53935</color>
+    <color name="s_launcher_color">#2196f3</color>
+    <color name="smart_launcher_color">#03a9f4</color>
+    <color name="smart_pro_launcher_color">#03a9f4</color>
+    <color name="solo_launcher_color">#9c27b0</color>
+    <color name="tsf_launcher_color">#03a9f4</color>
+    <color name="unicon_pro_color">#78c257</color>
+
+</resources>

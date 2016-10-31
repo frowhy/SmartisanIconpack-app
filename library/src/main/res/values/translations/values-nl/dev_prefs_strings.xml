@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+  ~ Copyright (c) 2016. Jahir Fiquitiva
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4. 0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons. org/licenses/by-sa/4. 0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License. 
+  ~
+  ~ Big thanks to the project contributors. Check them in the repository. 
+  ~
+  -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslations">
+    <string name="dev_prefs_title">Ontwikkelings voorkeuren</string>
+    <string name="dev_prefs_summary">Deze voorkeuren zijn niet beschikbaar in de uiteindelijke apps. Deze zijn gemaakt voor ontwerpers om de verschillende opties in IconShowcase  e bekijken. </string>
+    <string name="dev_drawer_header_style_title">Menu hoofd stijl</string>
+    <string name="dev_drawer_header_style_summary">Als u IconShowcase gebruikt, kunt u kiezen uit 3 verschillende stijlen voor het hoofd van het menu. </string>
+    <string name="dev_mini_header_picture_title">Mini menu hoofd afbeelding</string>
+    <string name="dev_mini_header_picture_summary">Wanneer uitgeschakeld, IconShowcase zal een vaste kleur weergeven op het hoofd. </string>
+    <string name="dev_icons_changelog_title">Iconen gebaseerd veranderings-logboek</string>
+    <string name="dev_icons_changelog_summary">IconShowcase biedt twee veranderings-logboek stijlen: een tekst- en iconen gebaseerde. </string>
+    <string name="dev_lists_cards_title">Lijst opmaken met kaarten</string>
+    <string name="dev_lists_cards_summary">IconShowcase biedt u de optie om lijsten als kaarten weer te geven in plaats van platte inhoud. </string>
+    <string name="dev_drawer_header_texts_title">Laat menu hoofd tekst zien</string>
+    <string name="dev_drawer_header_texts_summary">Wanneer uitgeschakeld geeft IconShowcase de app\'s naam en versie niet weer in de hoofd afbeelding. </string>
+    <string name="dev_more_options_title">Meer opties</string>
+    <string name="dev_more_options_summary">IconShowcase biedt u nog veel meer optionele opties die in te stellen zijn wanneer u uw app bouwt. Tik hier om ze te bekijken. </string>
+    <string-array name="configurations_list">
+        <item>Deze functies kunnen optioneel worden bewerkt als u de dashboard bron gebruikt:</item>
+        <item>Volledig aanpasbare UI. </item>
+        <item>Kolommen nummer voor sommige secties. </item>
+        <item>Laat je apps zien op de hoofdpagina</item>
+        <item>Geef aan wat je wilt dat gebruikers kunnen configureren. </item>
+    </string-array>
+    <string-array name="additional_features_list">
+        <item>Daarnaast biedt IconShowcase een aantal andere functies:</item>
+        <item>Licentie checker. </item>
+        <item>Cloud gebaseerde achtergronden. </item>
+        <item>Achtergronden viewer met zooming mogelijkheden. </item>
+        <item>Muzei ondersteuning. </item>
+        <item>Zooper widgets ondersteuning. </item>
+        <item>Kustom Live Wallpapers en Kustom Widgets ondersteuning. </item>
+        <item>In-app icoon aanvraag tool. </item>
+        <item>Iconen Aanvragen limiet: bijvoorbeeld, X apps iedere Y minuten. Dit betekent dat gebruikers alleen X apps iedere Y minuten aan kunnen vragen. </item>
+        <item>Ondersteuning voor meer dan 25 launchers. </item>
+        <item>Analoge klok widget. </item>
+        <item>Tablet ondersteuning. </item>
+        <item>App werkt als gallerij om iconen of achtergronden te selecteren en ze te gebruiken in andere apps. </item>
+        <item>Dashboard vertaald in meer dan 7 talen. </item>
+        <item>Ondersteuning voor Android 4. 1 en hoger. </item>
+    </string-array>
+</resources>

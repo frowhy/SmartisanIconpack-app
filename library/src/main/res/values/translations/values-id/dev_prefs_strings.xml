@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+  ~ Copyright (c) 2016. Jahir Fiquitiva
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4. 0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons. org/licenses/by-sa/4. 0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License. 
+  ~
+  ~ Big thanks to the project contributors. Check them in the repository. 
+  ~
+  -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslations">
+    <string name="dev_prefs_title">Preferensi Pengembangan</string>
+    <string name="dev_prefs_summary">Preferensi ini tidak akan tersedia di aplikasi akhir. Ini dibuat hanya untuk desainer agar bisa memeriksa beberapa pilihan kustomisasi IconShowcase. </string>
+    <string name="dev_drawer_header_style_title">Gaya drawer header</string>
+    <string name="dev_drawer_header_style_summary">Ketika menggunakan IconShowcase Anda dapat memilih antara 3 gaya drawer header yang berbeda. </string>
+    <string name="dev_mini_header_picture_title">Gambar drawer header mini</string>
+    <string name="dev_mini_header_picture_summary">Ketika dinonaktifkan, IconShowcase akan menampilkan warna solid header. </string>
+    <string name="dev_icons_changelog_title">Icons based changelog</string>
+    <string name="dev_icons_changelog_summary">IconShowcase menawarkan 2 gaya changelog: satu berdasarkan teks dan satu berdasarkan ikon. </string>
+    <string name="dev_lists_cards_title">Daftar kartu</string>
+    <string name="dev_lists_cards_summary">IconShowcase menawarkan Anda pilihan untuk menampilkan beberapa daftar kartu. </string>
+    <string name="dev_drawer_header_texts_title">Tampilkan text drawer header</string>
+    <string name="dev_drawer_header_texts_summary">Ketika dinonaktifkan, IconShowcase tidak akan menampilkan nama aplikasi dan versi di drawer header ini. </string>
+    <string name="dev_more_options_title">Lebih banyak pilihan</string>
+    <string name="dev_more_options_summary">IconShowcase menawarkan banyak pilihan tambahan lainnya Anda dapat mengatur sambil membangun aplikasi Anda. Tekan di sini untuk memeriksanya. </string>
+    <string-array name="configurations_list">
+        <item>Fitur-fitur ini dapat ditambahan konfigurasi saat menggunakan sumber dashboard:</item>
+        <item>Konfigurasi UI komplit. </item>
+        <item>Jumlah kolom untuk beberapa bagian. </item>
+        <item>Showcase aplikasi Anda pada bagian utama. </item>
+        <item>Atur apa yang Anda inginkan pengguna untuk dapat mengkonfigurasi. </item>
+    </string-array>
+    <string-array name="additional_features_list">
+        <item>Selain itu, IconShowcase menawarkan beberapa fitur lain:</item>
+        <item>Pemeriksaan lisensi. </item>
+        <item>Cloud based wallpapers. </item>
+        <item>Penampil wallpaper dengan kemampuan memperbesar. </item>
+        <item>Mendukung Muzei. </item>
+        <item>Mendukung Zooper widgets. </item>
+        <item>Mendukung Kustom Live Wallpapers dan Kustom Widgets ,</item>
+        <item>Alat permintaan ikon dalam aplikasi. </item>
+        <item>Permintaan ikon dibatasi: misalnya, aplikasi X setiap Y menit. Artinya untuk pengguna hanya akan dapat meminta aplikasi X setiap Y menit. </item>
+        <item>Mendukung lebih dari 25 launcher. </item>
+        <item>Widget jam analog. </item>
+        <item>Mendukung Tablet. </item>
+        <item>Apliasi bekerja sebagai galeri untuk memilih ikon atau wallpaper dan menggunakannya dalam aplikasi lain. </item>
+        <item>Dashboard diterjemahkan ke lebih dari 7 bahasa. </item>
+        <item>Mendukung Android 4. 1 ke atas. </item>
+    </string-array>
+</resources>

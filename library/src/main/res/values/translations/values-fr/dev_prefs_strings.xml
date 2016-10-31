@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+  ~ Copyright (c) 2016. Jahir Fiquitiva
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4. 0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons. org/licenses/by-sa/4. 0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License. 
+  ~
+  ~ Big thanks to the project contributors. Check them in the repository. 
+  ~
+  -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslations">
+    <string name="dev_prefs_title">Préférences de Développement</string>
+    <string name="dev_prefs_summary">Ces options ne seront pas disponibles dans les applis finales. Ces dernières sont faites pour les designers pour vérifier plusieurs paramètres de personnalisation qu\'offre IconShowcase</string>
+    <string name="dev_drawer_header_style_title">Style de l\'entête du tiroir de navigation</string>
+    <string name="dev_drawer_header_style_summary">En utilisant IconShowcase vous pouvez choisir entre trois styles d\'entêtes pour le tiroir de navigation. </string>
+    <string name="dev_mini_header_picture_title">Mini avatar d\'entête du tiroir de navigation</string>
+    <string name="dev_mini_header_picture_summary">En désactivant cette option, IconShowcase affichera une couleur en entête. </string>
+    <string name="dev_icons_changelog_title">Changelog d\'icônes</string>
+    <string name="dev_icons_changelog_summary">IconShowcase propose 2 styles de changelog: un écrit et un illustré avec des icônes. </string>
+    <string name="dev_lists_cards_title">Listes de cartes</string>
+    <string name="dev_lists_cards_summary">IconShowcase vous offre la possibilité d\'afficher des listes en cartes plutôt que des listes plates. </string>
+    <string name="dev_drawer_header_texts_title">Afficher le texte de l\'entête du tiroir de navigation</string>
+    <string name="dev_drawer_header_texts_summary">En désactivant cette option, IconShowcase n\'affichera pas le nom de l\'application et sa version. </string>
+    <string name="dev_more_options_title">Plus d\'options</string>
+    <string name="dev_more_options_summary">IconShowcase vous propose des options additionnelles que vous pouvez paramétré en créant votre appli. Cliquez ici pour jeter un coup d\'oeil. </string>
+    <string-array name="configurations_list">
+        <item>Ces fonctionnalités peuvent être configurés en utilisant le code source:</item>
+        <item>Interface complètement paramétrable. </item>
+        <item>Nombre de colonnes pour certaines sections. </item>
+        <item>Promouvez vos applications dans la section principale. </item>
+        <item>Choisissez ce que les utilisateurs peuvent configurer. </item>
+    </string-array>
+    <string-array name="additional_features_list">
+        <item>En plus de ça, IconShowcase offre d\'autres fonctionnalités:</item>
+        <item>Vérificateur de License. </item>
+        <item>Fond d\'écrans Cloud</item>
+        <item>Afficheur de fond d\'écrans avec possibilité de zoomer. </item>
+        <item>Support Muzei. </item>
+        <item>Support Zooper Widgets. </item>
+        <item>Support Kustom Live Wallpapers et Kustom Widgets. </item>
+        <item>Outil de requêtes d\'icônes intégré à l\'application. </item>
+        <item>Limite de requêtes: par exemple, X appli toute les Y minutes. Donc les utilisateurs ne pourront envoyez une requête pour l\'appli X que tout les Y minutes. </item>
+        <item>Prise en charge de plus de 25 lanceurs d\'applications. </item>
+        <item>Widget horloge analogique. </item>
+        <item>Prise en charge des tablettes. </item>
+        <item>L\'application agit comme une galerie pour vous permettre de sélectionner une icône ou une image pour les utilisées dans d\'autres applications. </item>
+        <item>IconShowcase a été traduite dans plus de 7 langues. </item>
+        <item>Compatible avec Android 4. 1 ou supérieur. </item>
+    </string-array>
+</resources>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+  ~ Copyright (c) 2016. Jahir Fiquitiva
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4. 0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons. org/licenses/by-sa/4. 0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License. 
+  ~
+  ~ Big thanks to the project contributors. Check them in the repository. 
+  ~
+  -->
+    <!--
+  ~
+  -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="muzei_settings">"Muzei-Einstellungen "</string>
+    <!-- Sharing wallpaper from Muzei -->
+    <string name="share_text">Mein Hintergrund für heute ist %1$s designed von %2$s, von %3$s. Hol ihn dir jetzt bei %4$s</string>
+    <!-- List Of Drawer Sections -->
+    <string name="section_home">Home</string>
+    <string name="section_icons">Icons</string>
+    <string name="section_apply">Anwenden</string>
+    <string name="section_wallpapers">Hintergründe</string>
+    <string name="section_icon_request">Icon Wünsche</string>
+    <string name="section_donate">Spenden</string>
+    <string name="section_about">Über diese App</string>
+    <!-- Wallpapers Activity -->
+    <string name="title_activity_detailed_wallpaper">Hintergrundbild Vorschau</string>
+    <!-- Muzei Stuff -->
+    <string name="muzeisets_title">Wallpaper aktualisieren alle:</string>
+    <string name="seconds">Sekunden</string>
+    <string name="minutes">"Minuten "</string>
+    <string name="hours">"Stunden "</string>
+    <string name="days">Tage</string>
+    <string name="weeks">Wochen</string>
+    <string name="months">Monate</string>
+    <string name="muzei_info">Hinweis: Diese Einstellungen können das Update-Verhalten der Hintergrundbilder beeinflussen. </string>
+    <string name="share">"Teilen "</string>
+    <string name="send_email">Email senden</string>
+    <!-- Strings for Dropdown Menu & Requests -->
+    <string name="share_title">Teilen via</string>
+    <string name="send_title">Senden via</string>
+    <string name="changelog">"Was ist neu? "</string>
+    <!-- LauncherNotInstalled Dialog -->
+    <string name="lni_content">"%1$s ist momentan nicht auf deinem Gerät installiert.\nMöchtest du es aus dem Google Play Store installieren? "</string>
+    <string name="cm_dialog_content">"%1$s ist ein Teil von CyanogenMod Roms.\nMöchtest du es auf dein Gerät installieren? "</string>
+    <string name="gnl_title">"Der Google Now Launcher ist NICHT kompatibel "</string>
+    <string name="gnl_content">Der Google Now Launcher ist mit KEINEM Icon Pack kompatibel. Bitte bewerte diese deswegen nicht schlecht. Es existiert eine Lösung, welche du versuchen kannst, die Methode benötigt aber eine andere App. Möchtest du diese herunterladen?</string>
+    <string name="lg_dialog_content">Es tut uns leid aber die LG Home App ist exklusiv für LG-Geräte und kann daher nicht vom Google Play Store heruntergeladen werden. </string>
+    <!-- Changelog Dialog Content -->
+    <string name="changelog_dialog_title">"Änderungen "</string>
+    <string name="great">Toll</string>
+    <!-- Wallpapers Stuff -->
+    <string name="no_conn_title">"Keine Verbindung gefunden "</string>
+    <string name="download">"Download "</string>
+    <string name="wallpaper_downloaded">Hintergrundbild wurde heruntergeladen nach %1$s</string>
+    <string name="wallpaper_by">Von %1$s</string>
+    <string name="apply">"Anwenden "</string>
+    <string name="save">"Speichern "</string>
+    <string name="downloading_wallpaper">Hintergrundbild wird heruntergeladen...</string>
+    <string name="setting_wall_title">Hintergrundbild wird auf dem Startbildschirm eingerichtet...</string>
+    <string name="preparing_wallpaper">Wallpaper wird zum Zuschneiden vorbereitet...</string>
+    <string name="download_takes_longer">Das dauert länger als erwartet. Du könntest warten oder die Aktion abbrechen. </string>
+    <string name="set_as_wall_done">Hintergrundbild eingerichtet!</string>
+    <string name="error">"Fehler "</string>
+    <string name="confirm_apply">Dieses Hintergrundbild wirklich auf dem Startbildschirm übernehmen?</string>
+    <string name="refreshing_walls">Hintergrundbilder werden aktualisiert...</string>
+    <string name="retry">"Wiederholen "</string>
+    <string name="wallpaper_author_title">Autor</string>
+    <string name="wallpaper_dimensions_title">Größendarstellung</string>
+    <string name="wallpaper_copyright_title">Copyright</string>
+    <string name="settings_saved">Einstellungen wurden gespeichert. Hintergründe wechseln alle %1$s. </string>
+    <!-- License Check Dialog -->
+    <string name="license_failed_title">"Lizenzprüfung fehlgeschlagen "</string>
+    <string name="license_success_title">Lizenzprüfung erfolgreich</string>
+    <string name="exit">Beenden</string>
+    <!-- Some texts for Dialogs and Cards -->
+    <string name="close">"Schließen "</string>
+    <string name="crop">Zuschneiden</string>
+    <string name="advice">Rat</string>
+    <string name="dontshow">"Nicht mehr zeigen "</string>
+    <string name="rate">Bewerten</string>
+    <string name="set_as">Hintergrund zuschneiden und verwenden als...</string>
+    <!-- Requests -->
+    <string name="select_all">Alle auswählen</string>
+    <string name="no_selected_apps_title">Keine Apps ausgewählt</string>
+    <string name="no_selected_apps_content">Es wurde keine App für eine Anfrage ausgewählt. Bitte wähle erst deine Apps aus bevor Du den Button erneut anklickst. </string>
+    <string name="apps_limit_dialog">Entschuldigung, mehr als%1$s Apps können zum Anfordern nicht ausgewählt werden</string>
+    <string name="apps_limit_dialog_more">Verzeihung, Sie können nur %1$s weitere Apps vorschlagen. </string>
+    <string name="apps_limit_dialog_day">Tut uns leid, nur alle %1$s können Icons angefordert werden</string>
+    <string name="apps_limit_dialog_day_extra">Sie können weitere Icon Vorschläge erst in %1$s einreichen. </string>
+    <string name="apps_limit_dialog_day_extra_sec">Sie können weitere Icon Vorschläge in weniger als einer Minute einreichen. </string>
+    <!-- Icon search -->
+    <string name="search_icons">Icons suchen...</string>
+    <string name="search_x">Suche %1$s…</string>
+    <string name="building_request_dialog">Daten werden verarbeitet…</string>
+    <string name="loading_apps">BItte warten Sie bis die App geladen ist, es wird ein paar Sekunden dauern...</string>
+    <string name="loading_icons">Icons laden.... </string>
+    <string name="choose">Auswählen</string>
+    <!--SETTINGS-->
+    <string name="title_settings">"Einstellungen "</string>
+    <string name="pref_header_ui">Benutzeroberfläche</string>
+    <string name="pref_title_themes">Basis theme</string>
+    <string name="pref_summary_themes">Wähle zwischen hell, dunkel, leer oder automatisch. </string>
+    <string name="pref_summary_themes_no_clear">Wählen Sie zwischen hell, dunkel oder automatisch. </string>
+    <string-array name="themes">
+        <item>Hell</item>
+        <item>Dunkel</item>
+        <item>Löschen</item>
+        <item>Automatisch</item>
+    </string-array>
+    <string-array name="themes_no_clear">
+        <item>Hell</item>
+        <item>Dunkel</item>
+        <item>Automatisch</item>
+    </string-array>
+    <string name="pref_title_anims">Animationen aktivieren</string>
+    <string name="pref_summary_anims">Dies kann auf manchen Geräten lag verursachen. </string>
+    <string name="pref_title_navbar">Farbige Navigationsleiste</string>
+    <string name="pref_summary_navbar">Navigationsleiste in Hauptfarbe aktivieren. </string>
+    <string name="pref_title_wall_header">Hintergrund als Kopfzeile verwenden</string>
+    <string name="pref_summary_wall_header">aktuelles Hintergrundbild wird in der Kopfzeile der App verwendet. </string>
+    <string name="pref_header_storage">Speicher</string>
+    <string name="pref_title_cache">Daten und Kurzzeitspeicher der App leeren</string>
+    <string name="pref_summary_cache">Dies löscht den Kurzzeitspeicher der app, sowie alle Einstellungen.\nAktuelle Kurzzeitspeichergröße: %1$s</string>
+    <string name="pref_title_wsl">Speicherplatz für Hintergrund downloads</string>
+    <string name="pref_summary_wsl">Ändere den Speicherort für heruntergeladene Hintergründe.\nAktueller Speicherort: %1$s</string>
+    <string name="pref_header_launcher_icon">Launcher Icon</string>
+    <string name="pref_title_launcher_icon">Launcher Icon verstecken</string>
+    <string name="pref_summary_launcher_icon">Wenn ausgewählt wird das Icon im Launcher verborgen. </string>
+    <string name="clearcache_dialog_content">Sind sie sicher dass sie alle App Daten inklusive Kurzzeitspeicher und Einstellungen löschen wollen?
+Ausgewählte Icons werden nicht beeinflusst. </string>
+    <string name="hideicon_dialog_title">Achtung!</string>
+    <string name="hideicon_dialog_content">Sind Sie sicher dass sie das App Icon im Launcher verstecken wollen? 
+\nDie App könnte sich unerwartet schließen.\nLesen Sie die FAQs um zu erfahren wie sie es wieder sichtbar machen können, bevor Sie sie verstecken. </string>
+    <string name="prefs_notifs_title">Benachrichtigungen</string>
+    <string name="pref_title_enable_notifs">Benachrichtigungen aktivieren</string>
+    <string name="pref_summary_enable_notifs">Benachrichtigungen für neue Hintergrundbilder und Neuigkeiten erhalten. </string>
+    <string name="pref_title_enable_notifs_led">Benachrichtigungs LED aktivieren</string>
+    <string name="pref_title_enable_notifs_vibration">Vibration bei Benachrichtigung aktivieren</string>
+    <string name="pref_title_notifs_interval">Update und Synchronisations Intervall</string>
+    <string name="pref_summary_notifs_interval">Wie oft soll die App nach neuen Benachrichtigung prüfen. </string>
+    <string name="pref_summary_notifs_interval_more">Die App prüft jede %1$s nach neuen Benachrichtigungen. </string>
+    <string name="launcher_icon_restored">%1$s Launcher Icon zurückgesetzt</string>
+    <string name="launcher_icon_no_restored">%1$s Launcher Icon ist bereits sichtbar</string>
+    <string name="launcher_icon_restorer_error">Es gab ein Problem mit dem code von %1$s. Bitte kontaktieren sie seinen Entwickler. </string>
+    <!-- Widgets Names -->
+    <string name="iconrestorer_widget_title">Icon Wiederhersteller Widget</string>
+    <string name="clock_widget_title">Analoguhr</string>
+    <string name="faqs_section">FAQs</string>
+    <string name="dashboard_author">Dashboard App Entwicklung</string>
+    <string name="dashboard_author_copyright">Aus Kolumbien in die Welt.\nDashboard geteilt unter CreativeCommons Attribution-ShareAlike License. Copyright© 2016. </string>
+    <string name="iconpack_author">Designer Information</string>
+    <string name="fork_on_github">Fork auf GitHub</string>
+    <string name="visit_website">Webseite</string>
+    <string name="more_apps">Mehr Apps</string>
+    <string name="more_apps_long">Sehen Sie sich die anderen Apps an, die ich im Google Play Store veröffentlicht habe. </string>
+    <string name="implemented_libraries">verwendete libraries</string>
+    <string name="contributors">An der Entwicklung Beteiligte</string>
+    <string name="sherry_title">Danke an Zhao Ya</string>
+    <string name="sherry_dialog">Dank ihr ist IconSmartisan gratis. </string>
+    <string name="follow_her">Folgt ihr</string>
+    <string name="ui_design">Mitarbeiter am Benutzeroberflächen Design</string>
+    <string name="donate">Entwickler unterstützen</string>
+    <string name="donate_summary">Wenn Sie denken dass Jahir Fiquitiva für die Entwicklung dieser App etwas Geld verdient hat. </string>
+    <string name="report_bugs">Fehler melden</string>
+    <string name="report_bugs_summary">Fehler melden oder Features vorschlagen. </string>
+    <string name="join_community">Treten Sie der Google plus Gemeinschaft bei</string>
+    <string name="join_community_summary">Sollten Sie Hilfe benötigen oder Fragen haben, ist die Google Plus Gemeinschaft ein guter Ort dafür. </string>
+    <string name="saving_wallpaper">Hintergrund wird gespeichert...</string>
+    <string name="refresh">Aktualisieren</string>
+    <!-- Messages shown when using LicenseChecker -->
+    <string name="license_failed">Du hast %1$s nicht aus dem Google Play Store installiert. Du hast zwei Möglichkeiten:</string>
+    <string name="license_success">Danke, dass Du %1$s installiert hast. Wenn sie Dir gefällt, kannst Du die App im Google Play Store bewerten und eine Beurteilung abgeben. </string>
+    <string name="apply_advice">Sollte der Launcher den Sie benutzen nicht aufgeführt sein, müssen sie das Icon Pack über die Einstellungen des Launchers auswählen.\nManche Launcher unterstützen die Auswahl durch andere Apps nicht. </string>
+    <string name="walls_advice">Drücken sie kurz auf einen Hintergrund, um ihn im Fullscreen modus zu öffnen,\nDrücken sie lange um ihn auf ihren Homescreen anzuwenden. </string>
+    <string name="zooper_section_title">Zooper Einrichtung</string>
+    <string name="zooper_download_dialog_title">Herrunterladen von</string>
+    <string name="install_apps">Apps installieren</string>
+    <string name="install_apps_content">Du musst diese Apps installieren, damit die Zooper Widgets funktionieren. Bitte installiere sie und versuche es erneut. </string>
+    <string name="install_kustom_apps_content">Du musst diese Apps installieren, damit die Kustom Assets funktionieren. Klicke auf eines um es zu installieren. </string>
+    <string name="install_assets">Assets installieren</string>
+    <string name="open">Öffnen</string>
+    <string name="assets_installed">Assets sind bereits installiert</string>
+    <string name="apps_installed">Apps sind bereits installiert</string>
+    <string name="copying_assets">Kopiere Daten zu ZooperWidget/%1$s</string>
+    <string name="icon_pack_in_numbers">Icon Pack in Zahlen</string>
+    <string name="themed_icons">Mehr als %1$s Icons. </string>
+    <string name="available_wallpapers">Ca. %1$s verfügbare Hintergründe. </string>
+    <string name="included_widgets">Mehr als %1$s Widgets für Zooper enthalten. </string>
+    <string name="icons">Icons</string>
+    <string name="md_storage_perm_error">Sie haben die \"Externen Speicher Lesen\" Genehmigung an %1$s gegeben, dies wird benötigt um diese Aktion auszuführen. </string>
+    <string name="new_folder">Neuer Ordner</string>
+    <string name="new_folder_hint">Ordner Name</string>
+    <string name="new_folder_title">Neuen Ordner erstellen</string>
+    <string name="new_folder_content">Bitte den Namen des Ordners eingeben. </string>
+    <string name="wait_for_walls">Bitte warten bis das Vorschaubild erscheint...</string>
+    <string name="translators">Übersetzer</string>
+    <string name="more">Mehr</string>
+    <string name="columns">Spaltenanzahl</string>
+    <string name="columns_desc">Anzahl der Spalten für diesen Abschnitt:</string>
+    <string-array name="columns_options" tools:ignore="InconsistentArrays">
+        <item>Hochformat: 1 / Querformat: 3</item>
+        <item>Hochformat: 2 / Querformat: 4</item>
+        <item>Hochformat: 3 / Querformat: 5</item>
+    </string-array>
+    <string-array name="questions">
+        <item>Wie verwende ich das Icon Pack?</item>
+        <item>Wie wende ich das Icon Pack an?</item>
+        <item>Wie kann ich alle enthaltenden Icons sehen?</item>
+        <item>Wie verwende ich alternative Icons?</item>
+        <item>Wie kann ich um noch nicht angepasste Icons anfordern?</item>
+        <item>Nachdem ich mein Gerät neu gestartet habe, ist das Icon Pack nicht mehr ausgewählt und alle Icons sind wieder normal. </item>
+        <item>Warum sind die Icons auf meinem Gerät verpixelt?</item>
+        <item>Ich kann ein Icon für App X in der Liste aller Icons sehen, aber es wird nicht angewendet. </item>
+        <item>Wie verstecke ich das App Icon aus dem Launcher?</item>
+        <item>Wie kann ich die App nach dem verstecken des Icons öffnen?</item>
+        <item>Wie kann ich das Icon wieder sichtbar machen?</item>
+        <item>Warum benötigt die App die Erlaubnis den Inhalt meines Speichers zu verändern oder zu löschen?</item>
+        <item>Warum benötigt die App die Erlaubnis zum vollen Internetzugriff?</item>
+        <item>Warum benötigt die App die Erlaubnis verfügbare Verbindungen auszuwerten?</item>
+        <item>Warum benötigt die App die Erlaubnis meinen Hintergrund zu ändern?</item>
+        <item>Warum benötigt die App die Erlaubnis die Hintergrund Größe zu verändern?</item>
+        <item>Warum benötigt die App die Erlaubnis mein Gerät vom Ruhezustand abzuhalten?</item>
+    </string-array>
+    <string-array name="answers">
+        <item>Sie benötigen einen Launcher mit Icon Pack support. 
+Lesen sie die Google Play Store Beschreibung für eine Liste unterstützter Launcher. 
+Sollten Sie unsicher sein, welchen Launcher sie verwenden sollten, besuchen Sie einfach den \"Anwenden\" bereich und wählen Sie einen aus der Liste. </item>
+        <item>Öffnen sie den Navigations Drawer auf der linken Seite und tippen Sie auf den \"Anwenden\" Bereich, oder gehen Sie zurück zum Hauptbildschirm der App und tippen sie auf den Floating Action Button. 
+Wählen Sie den Launcher den Sie verwenden möchten. 
+Sollte Ihr Launcher nicht aufgelistet sein, aber dieses Icon Pack dennoch mit ihm kompatibel sein (Lesen sie die Google Play Store Beschreibung für eine Liste unterstützter Launcher), können Sie es über die Einstellungen des Launcher anwenden. </item>
+        <item>Öffnen sie den Navigations Drawer auf der linken Seite und tippen Sie auf den \"Icons\" Bereich, oder gehen Sie zurück zum Hauptbildschirm der App und tippen sie auf den Button mit der Aufschrift \"Icons\". </item>
+        <item>Es hängt vom Launcher ab, den Sie verwenden. Nicht jeder Launcher unterstützt das bearbeiten von Icons. Doch in den meisten können Sie dies tun, indem sie das Icon gedrückt halten oder es doppelt antippen. </item>
+        <item>Öffnen sie den Navigations Drawer auf der linken Seite und tippen Sie auf den \"Requests\" Bereich. </item>
+        <item>Dies passiert wenn Sie das Icon Pack auf Ihre SD karte verschoben haben. Sie sollten es auf dem Internen Speicher installieren. </item>
+        <item>Das Problem könnte vom Launcher, den Sie verwenden ausgehen, wenn sie ein Gerät mit hoher Auflösung besitzen. 
+Sie können dem vorbeugen indem sie die Icon Größe auf 115-120% setzen oder indem Sie einen anderen Launcher ausprobieren. </item>
+        <item>Icon anfordern. </item>
+        <item>Öffnen sie den Navigations Drawer auf der linken Seite und tippen Sie auf den \"Einstellungen\" Bereich. 
+Dann tippen Sie auf die \"Icon aus dem Launcher verbergen\" option. </item>
+        <item>Gehen Sie auf ihren Homescreen, dann fügen Sie ein Widget dieser App hinzu welches \"IconRestorer\" heißt. </item>
+        <item>Öffnen sie den Navigations Drawer auf der linken Seite und tippen Sie auf den \"Einstellungen\" Bereich. 
+Dann tippen Sie auf die \"Icon aus dem Launcher verbergen\" option. </item>
+        <item>Diese wird benötigt um die Daten für einen Icon Request sowie Hintergründe zu speichern und um den Speicherort der Hintergründe zu verändern. </item>
+        <item>Diese wird benötigt um die Cloud-basierten Hintergründe zu laden und auf dem Gerät zu speichern. </item>
+        <item>Diese wird benötigt um die Internetverbindung des Gerätes zu prüfen. </item>
+        <item>Diese wird benötigt um den Hintergrund direkt in der App zu verändern. </item>
+        <item>Diese wird benötigt um die Größe des Hintergrunds auf die Auflösung ihres Displays anzupassen. </item>
+        <item>Diese wird für den Muzei Live Hintergrund benötigt. </item>
+    </string-array>
+    <string name="no_apply_tab">Kontaktiere den Entwickler, anscheinend fehlt etwas in der App!</string>
+    <!--No Theme Engine Dialog-->
+    <string name="NTED_title">Oh Oh!</string>
+    <string name="NTED_message">Es scheint so als wäre die Theme Engine nicht auf Ihrem Gerät installiert. Sollten Sie sich sicher sein dass diese installiert ist, öffnen Sie sie bitte und fahren sie von dort fort. Sollte sie tatsächlich nicht vorhanden sein, installieren sie bitte ein Betriebsystem welches endweder die CyanogenMod oder die Layers Theme Engine unterstützt und folgen Sie dann den Anweisungen. </string>
+    <string name="tap_to_download">%1$s\nDiese Karte zum Download klicken</string>
+    <string name="tap_to_open">%1$s\nDiese Karte zum öffnen der App klicken</string>
+    <string name="donations_error_title">Spenden nicht verfügbar</string>
+    <string name="donations_error_content">Dein Gerät unterstützt leider keine In-App Käufe.\nDas könnte daran liegen, dass du die Google Play Store App updaten musst oder weil du in einem Land lebst, in dem In-App Käufe nicht verfügbar sind. </string>
+    <string name="new_walls_notif_title">Neue Hindergrundbilder in %1$s verfügbar. </string>
+    <string name="new_walls_notif_content">Es sind %1$s neue Wallpaper verfügbar! Klicke auf die Benachrichtigung um die App zu öffnen und sie anzusehen. </string>
+    <string name="news">Neuigkeiten</string>
+    <string-array name="update_intervals">
+        <item>Jede Stunde. </item>
+        <item>Alle 6 Stunden. </item>
+        <item>Alle 12 Stunden. </item>
+        <item>Alle 24 Stunden. </item>
+        <item>Alle 2 Tage. </item>
+        <item>Alle 4 Tage. </item>
+        <item>Alle 7 Tage. </item>
+    </string-array>
+</resources>

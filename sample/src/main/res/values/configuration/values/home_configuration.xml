@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016.  Jahir Fiquitiva
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4.0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons.org/licenses/by-sa/4.0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~ Big thanks to the project contributors. Check them in the repository.
+  ~
+  -->
+
+<resources>
+
+    <!--
+    Do you want the icons in toolbar to be randomized?
+    True, means yes.
+    False, means no.
+    -->
+    <bool name="shuffle_toolbar_icons">true</bool>
+
+    <!--
+    Do you want to let user see the device wallpaper in toolbar?
+    True, means yes.
+    False, means no.
+    -->
+    <bool name="enable_user_wallpaper_in_toolbar">true</bool>
+
+    <!--
+       Do you want the app to use palette api in toolbar header?
+       True, means yes.
+       False, means no.
+       -->
+    <bool name="use_palette_api_in_toolbar">true</bool>
+
+    <!--
+    Do you want to hide "Icon Pack in numbers" section?
+    True, means yes.
+    False, means no.
+    -->
+    <bool name="hide_pack_info">false</bool>
+
+    <!--
+    How many icons does your app include?
+    -->
+    <integer name="icons_amount">700</integer>
+
+    <!--
+    How many wallpapers does your app include?
+    -->
+    <integer name="walls_amount">16</integer>
+
+    <!--
+    How many Zooper widget does your app include?
+    (Don't worry, it will be ignored if your app doesn't include Zooper).
+    -->
+    <integer name="zooper_widgets">7</integer>
+
+
+    <string-array name="apps_titles">
+    </string-array>
+
+    <string-array name="apps_descriptions">
+    </string-array>
+
+    <string-array name="apps_icons">
+    </string-array>
+
+    <string-array name="apps_packages">
+    </string-array>
+
+</resources>

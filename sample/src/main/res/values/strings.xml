@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016.  Jahir Fiquitiva
+  ~
+  ~ Licensed under the CreativeCommons Attribution-ShareAlike
+  ~ 4.0 International License. You may not use this file except in compliance
+  ~ with the License. You may obtain a copy of the License at
+  ~
+  ~    http://creativecommons.org/licenses/by-sa/4.0/legalcode
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~ Big thanks to the project contributors. Check them in the repository.
+  ~
+  -->
+
+<!--
+  ~
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!-- ShowcaseActivity Strings -->
+    <string name="app_name">锤子图标</string>
+    <string name="app_long_name">锤子图标</string>
+    <string name="theme_description">锤子图标app是一款经典的图标应用,画风精美,使用感舒适,这款图标可以融合国内绝大多数的应用软件,欢迎使用。</string>
+
+    <!-- Muzei Stuff -->
+    <string name="artsource_name">@string/app_name</string>
+    <string name="artsource_desc">一些非常棒的壁纸</string>
+
+    <string name="json_file_url">http://smartisan.frowhy.com/wallpapers.json</string>
+    <string name="notifications_file_url">http://smartisan.frowhy.com/notifs.json</string>
+
+    <!-- Icon Pack designer/owner e-mail -->
+    <string name="email_id">frowhy@gmail.com</string>
+
+    <!-- Mail subjects for simple e-mail and requests e-mail -->
+    <string name="email_subject">锤子图标</string>
+    <string name="request_title">锤子图标 - 图标补全</string>
+
+    <!-- This are the strings for the cards in the main screen -->
+    <string name="welcome_title">欢迎使用锤子图标</string>
+
+    <!-- Strings for Wallpapers and Requests -->
+    <string name="request_save_location">%1$s/smartisan/Requests/</string>
+    <string name="walls_save_location">%1$s/smartisan/Wallpapers/</string>
+
+    <!-- Launcher Activity Name
+    if the activity is:
+    com.packagename.appname.Activity
+    then write Activity
+    -->
+    <string name="main_activity_name">HomeActivity</string>
+    <string name="main_activity_fullname">com.frowhy.smartisan.HomeActivity</string>
+
+    <!-- TEXTS TO BE USED IN ABOUT SECTION -->
+
+    <string name="iconpack_author_name">frowhy</string>
+    <string name="iconpack_author_photo" formatted="false" tools:ignore="TypographyDashes">http://i2.buimg.com/eda9e01c6677528b.jpg</string>
+    <string name="iconpack_author_banner" formatted="false" tools:ignore="TypographyDashes">http://i1.piimg.com/564642/04aa242e33a3e9b6.jpg</string>
+    <string name="iconpack_author_description">我是一个小清新全栈工程师，业余之时喜欢自己动手做点小东西自己用自己玩。当然，有些小东西比如这个就可以分享给更多的人来使用。如果你觉得我所开发的小东西对你有所帮助的话，清使用侧滑抽屉里的捐赠向我付款以使支持我。</string>
+    <string name="iconpack_author_gplus">http://weibo.com/frowhy</string>
+    <string name="iconpack_author_gplus_community">https://plus.google.com/communities/117748118619432374563</string>
+    <string name="iconpack_author_fb">fb://profile/100009400179338</string>
+    <string name="iconpack_author_fb_alt">https://www.facebook.com/frowhy</string>
+    <string name="iconpack_author_twitter">twitter://user?screen_name=frowhy</string>
+    <string name="iconpack_author_twitter_alt">https://twitter.com/#!/frowhy</string>
+    <string name="iconpack_author_playstore">http://a.app.qq.com/o/simple.jsp?pkgname=com.frowhy.smartisan</string>
+    <string name="iconpack_author_website">http://www.frowhy.com/</string>
+    <string name="iconpack_author_youtube">https://www.youtube.com/channel/UCPaot1qkhnU35y3BeQdcKkw</string>
+
+    <string-array name="iconpack_author_sites">
+        <item>@string/facebook</item>
+        <item>@string/join_community</item>
+        <item>@string/youtube</item>
+        <item>@string/twitter</item>
+        <item>@string/play_store</item>
+    </string-array>
+
+    <string-array name="iconpack_author_links">
+        <item>@string/iconpack_author_fb_alt</item>
+        <item>@string/iconpack_author_gplus_community</item>
+        <item>@string/iconpack_author_youtube</item>
+        <item>@string/iconpack_author_twitter</item>
+        <item>@string/iconpack_author_playstore</item>
+    </string-array>
+
+    <!-- This array will only be used if you enable the List style in About section. -->
+    <string-array name="iconpack_author_sites_in_list">
+        <item>@string/facebook</item>
+        <item>@string/google_plus</item>
+        <item>@string/join_community</item>
+        <item>@string/youtube</item>
+        <item>@string/twitter</item>
+        <item>@string/play_store</item>
+    </string-array>
+
+    <!-- PICTURES NAMES TO BE USED AS PREVIEWS FOR LAUNCHERS -->
+
+    <!-- Feature picture that appears above the description -->
+    <string name="theme_feature">icons_banner</string>
+
+    <!-- Previews Pictures Names -->
+    <string name="theme_preview1">preview1</string>
+    <string name="theme_preview2">preview2</string>
+
+    <!-- These things are needed for some launchers (Feel free to edit, though is not needed) -->
+    <string name="theme_title">@string/app_name</string>
+    <string name="theme_name">@string/theme_title</string>
+    <string name="developer_name">@string/iconpack_author</string>
+    <string name="developerName">@string/developer_name</string>
+    <string name="theme_author">@string/developer_name</string>
+    <string name="authorName">@string/developer_name</string>
+    <string name="authorLink">@string/iconpack_author_website</string>
+    <string name="theme_info">@string/theme_description</string>
+    <string name="theme_ad_msg">@string/theme_description</string>
+
+    <!-- Paypal -->
+    <string name="paypal_user">frowhy@gmail.com</string>
+    <string name="paypal_currency_code">USD</string>
+
+</resources>
